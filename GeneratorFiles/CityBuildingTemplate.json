@@ -1,0 +1,104 @@
+{
+    "Path": "../LongLiveTheEmpire/CityBuildings",
+    "Keywords": {
+        "Military District": "../LongLiveTheEmpire/MilitaryDistrict.png", 
+        "Commercial District": "../LongLiveTheEmpire/CommercialDistrict.png", 
+        "Surveillance District": "../LongLiveTheEmpire/SurviellanceDistrict.png", 
+        "Research District": "../LongLiveTheEmpire/ResearchDistrict.png", 
+        "Intelligence District": "../LongLiveTheEmpire/IntelligenceDistrict.png", 
+        "Media District": "../LongLiveTheEmpire/MediaDistrict.png", 
+        "Empire": "../LongLiveTheEmpire/Empire.png", 
+        "Rebel": "../LongLiveTheEmpire/Rebel.png", 
+        "Strength": "../LongLiveTheEmpire/Strength.png", 
+        "Wealth": "../LongLiveTheEmpire/Wealth.png", 
+        "Control": "../LongLiveTheEmpire/Control.png",
+        "Manipulation": "../LongLiveTheEmpire/ManipulationToken.png",
+        
+        "Font": "Lato",
+        "Regular": "0",
+        "Bold": "1"
+    },
+    "Canvas": 
+    {
+        "Width": "674",
+        "Height": "1050"
+    },
+    "Items": 
+    [
+        {
+            "Type": "Border",
+            "X": "0",
+            "Y": "0",
+            "Width": "674",
+            "Height": "1050",
+            "Thickness": "6",
+            "Alignment": "Inner"
+        },
+        {
+            "Type": "Image",
+            "Source": "^*Alignment",
+            "Opacity": "0.4",
+            "X": "7",
+            "Y": "195", 
+            "Width": "330",
+            "Height": "330"
+        },
+        {
+            "Type": "Image",
+            "Source": "^*District",
+            "Opacity": "0.4",
+            "X": "337",
+            "Y": "525", 
+            "Width": "330",
+            "Height": "330"
+        },
+        {
+            "Type": "Text",
+            "Content": "*Name",
+            "Font": "^Font",
+            "FontSize": "50",
+            "FontStyle": "^Bold",
+            "X": "37",
+            "Y": "30", 
+            "Width": "600",
+            "Height": "1000",
+            "VerticalTextAlign": "Top"
+        },
+        {
+            "Type": "Text",
+            "Content": "*Action",
+            "Font": "^Font",
+            "FontSize": "40",
+            "FontStyle": "^Bold",
+            "X": "37",
+            "Y": "25", 
+            "Width": "600",
+            "Height": "1000",
+            "VerticalTextAlign": "Center"
+        },
+        {
+            "Type": "Text",
+            "Content": "*Alignment",
+            "Font": "^Font",
+            "FontSize": "20",
+            "FontStyle": "^Bold",
+            "X": "37",
+            "Y": "925", 
+            "Width": "600",
+            "Height": "50",
+            "VerticalTextAlign": "Bottom"
+        },
+        {
+            "Type": "Text",
+            "Content": "*District",
+            "Font": "^Font",
+            "FontSize": "30",
+            "FontStyle": "^Bold",
+            "X": "37",
+            "Y": "975", 
+            "Width": "600",
+            "Height": "50",
+            "VerticalTextAlign": "Bottom"
+        }
+    ]
+}

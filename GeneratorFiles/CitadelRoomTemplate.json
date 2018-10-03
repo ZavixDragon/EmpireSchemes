@@ -1,0 +1,122 @@
+{
+    "Path": "../LongLiveTheEmpire/CitadelRooms",
+    "Keywords": {
+        "Empire": "../LongLiveTheEmpire/Empire.png", 
+        "Rebel": "../LongLiveTheEmpire/Rebel.png", 
+        "Strength": "../LongLiveTheEmpire/Strength.png", 
+        "BaseStrength": "../LongLiveTheEmpire/BaseStrength.png", 
+        "Wealth": "../LongLiveTheEmpire/Wealth.png", 
+        "BaseWealth": "../LongLiveTheEmpire/BaseWealth.png", 
+        "Control": "../LongLiveTheEmpire/Control.png",
+        "BaseControl": "../LongLiveTheEmpire/BaseControl.png",
+        "Manipulation": "../LongLiveTheEmpire/ManipulationToken.png",
+        
+        "Font": "Lato",
+        "Regular": "0",
+        "Bold": "1"
+    },
+    "Canvas": 
+    {
+        "Width": "674",
+        "Height": "1050"
+    },
+    "Items": 
+    [
+        {
+            "Type": "Border",
+            "X": "0",
+            "Y": "0",
+            "Width": "674",
+            "Height": "1050",
+            "Thickness": "6",
+            "Alignment": "Inner"
+        },
+        {
+            "Type": "Image",
+            "Source": "^*Room",
+            "Opacity": "0.4",
+            "X": "37",
+            "Y": "225", 
+            "Width": "600",
+            "Height": "600"
+        },
+        {
+            "Type": "Text",
+            "Content": "*Name",
+            "Font": "^Font",
+            "FontSize": "50",
+            "FontStyle": "^Bold",
+            "X": "37",
+            "Y": "30", 
+            "Width": "600",
+            "Height": "120",
+            "VerticalTextAlign": "Top"
+        },
+        {
+            "Type": "Text",
+            "Content": "Passive",
+            "Font": "^Font",
+            "FontSize": "40",
+            "FontStyle": "^Bold",
+            "X": "37",
+            "Y": "210", 
+            "Width": "600",
+            "Height": "50"
+        },
+        {
+            "Type": "Text",
+            "Content": "*Passive",
+            "Font": "^Font",
+            "FontSize": "30",
+            "FontStyle": "^Bold",
+            "X": "37",
+            "Y": "280", 
+            "Width": "600",
+            "Height": "120"
+        },
+        {
+            "Type": "Text",
+            "Content": "Action",
+            "Font": "^Font",
+            "FontSize": "40",
+            "FontStyle": "^Bold",
+            "X": "37",
+            "Y": "460", 
+            "Width": "600",
+            "Height": "50"
+        },
+        {
+            "Type": "Text",
+            "Content": "*Action",
+            "Font": "^Font",
+            "FontSize": "30",
+            "FontStyle": "^Bold",
+            "X": "37",
+            "Y": "530", 
+            "Width": "600",
+            "Height": "120"
+        },
+        {
+            "Type": "Text",
+            "Content": "Rebel Action",
+            "Font": "^Font",
+            "FontSize": "40",
+            "FontStyle": "^Bold",
+            "X": "37",
+            "Y": "760", 
+            "Width": "600",
+            "Height": "50"
+        },
+        {
+            "Type": "Text",
+            "Content": "*RebelAction",
+            "Font": "^Font",
+            "FontSize": "30",
+            "FontStyle": "^Bold",
+            "X": "37",
+            "Y": "830", 
+            "Width": "600",
+            "Height": "120"
+        }
+    ]
+}
