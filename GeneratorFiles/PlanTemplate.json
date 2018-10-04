@@ -1,0 +1,71 @@
+{
+    "Path": "Plans",
+    "Keywords": 
+    {
+        "Strength": "../LongLiveTheEmpire/Strength.png", 
+        "Wealth": "../LongLiveTheEmpire/Wealth.png", 
+        "Control": "../LongLiveTheEmpire/Control.png",
+        "CombatDrugs": "../LongLiveTheEmpire/Source Images/CombatDrugsIcon-small.png", 
+        "ExperimentalWeapon": "../LongLiveTheEmpire/Source Images/ExperimentalWeaponIcon-small.png", 
+        "SpyDrone": "../LongLiveTheEmpire/Source Images/SpyDroneIcon-small.png",
+        "MediaBroadcast": "../LongLiveTheEmpire/Source Images/BroadcastIcon-small.png",
+        "HoloprojectorDisguise": "../LongLiveTheEmpire/Source Images/HoloprojectorIcon-small.png",
+        "UnregisteredCredChip": "../LongLiveTheEmpire/Source Images/CredChipIcon-small.png",
+        "Empire": "../LongLiveTheEmpire/Empire.png", 
+        "Rebel": "../LongLiveTheEmpire/Rebel.png", 
+
+        "Font": "Lato",
+        "Regular": "0",
+        "Bold": "1"
+    },
+    "Canvas": 
+    {
+        "Width": "674",
+        "Height": "1050"
+    },
+    "Items": 
+    [
+        {
+            "Type": "Border",
+            "X": "0",
+            "Y": "0",
+            "Width": "674",
+            "Height": "1050",
+            "Thickness": "6",
+            "Alignment": "Inner"
+        },
+        {
+            "Type": "Text",
+            "Content": "*Req1",
+            "Font": "^Font",
+            "FontSize": "50",
+            "FontStyle": "^Bold",
+            "X": "37",
+            "Y": "295", 
+            "Width": "600",
+            "Height": "60"
+        },
+        {
+            "Type": "Text",
+            "Content": "*Req2",
+            "Font": "^Font",
+            "FontSize": "50",
+            "FontStyle": "^Bold",
+            "X": "37",
+            "Y": "495", 
+            "Width": "600",
+            "Height": "60"
+        },
+        {
+            "Type": "Text",
+            "Content": "*Req3",
+            "Font": "^Font",
+            "FontSize": "50",
+            "FontStyle": "^Bold",
+            "X": "37",
+            "Y": "695", 
+            "Width": "600",
+            "Height": "60"
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+[
+    {
+        "FileName": "Payout1.png",
+        "Text": "{^Influence} {^Influence} \n \n Replace a Noble"
+    },
+    {
+        "FileName": "Payout2.png",
+        "Text": "{^Influence} {^Influence} \n \n Appoint a Master \n \n Add a Noble"
+    },
+    {
+        "FileName": "Payout3.png",
+        "Text": "{^Influence} {^Influence} \n \n Remove a Noble \n \n Appoint a Master"
+    },
+    {
+        "FileName": "Payout4.png",
+        "Text": "{^Influence} {^Influence} \n \n Add a Master"
+    },
+    {
+        "FileName": "Payout5.png",
+        "Text": "{^Influence} {^Influence} \n \n Remove a Master"
+    },
+    {
+        "FileName": "Payout6.png",
+        "Text": "{^Influence} {^Influence} \n \n Appoint a Pawn \n \n Add a Noble"
+    },
+    {
+        "FileName": "Payout7.png",
+        "Text": "{^Influence} {^Influence} \n \n Remove a Noble \n \n Appoint a Pawn"
+    },
+    {
+        "FileName": "Payout8.png",
+        "Text": "{^Influence} {^Influence} \n \n Remove a Noble \n \n Add a Pawn"
+    },
+    {
+        "FileName": "Payout9.png",
+        "Text": "{^Influence} {^Influence} \n \n Remove a Pawn \n \n Add a Noble"
+    },
+    {
+        "FileName": "Payout10.png",
+        "Text": "{^Influence} {^Influence} \n \n Appoint an Advisor \n \n Add a Noble"
+    },
+    {
+        "FileName": "Payout11.png",
+        "Text": "{^Influence} {^Influence} \n \n Remove a Noble \n \n Appoint an Advisor"
+    },
+    {
+        "FileName": "Payout12.png",
+        "Text": "{^Influence} {^Influence} \n \n Add an Advisor"
+    },
+    {
+        "FileName": "Payout13.png",
+        "Text": "{^Influence} {^Influence} \n \n Remove an Advisor"
+    },
+    {
+        "FileName": "Payout14.png",
+        "Text": "{^Influence} {^Influence} \n \n Appoint a Rebel Spy"
+    },
+    {
+        "FileName": "Payout15.png",
+        "Text": "{^Influence} {^Influence} \n \n Remove a Noble \n \n Add a Rebel Spy"
+    },
+    {
+        "FileName": "Payout16.png",
+        "Text": "{^Influence} {^Influence} \n \n Remove a Rebel Spy \n \n Add a Noble"
+    },
+    {
+        "FileName": "Payout17.png",
+        "Text": "{^Influence} {^Influence} \n \n Replace a Rebel Spy"
+    },
+    {
+        "FileName": "Payout18.png",
+        "Text": "{^Influence} {^Influence} \n \n Appoint a Scapegoat \n \n Add a Noble"
+    },
+    {
+        "FileName": "Payout20.png",
+        "Text": "{^Influence} {^Influence} \n \n Add a Noble \n \n Assign an Up and Coming"
+    },
+    {
+        "FileName": "Payout21.png",
+        "Text": "{^Influence} {^Influence} \n \n Remove a Noble \n \n Assign an Up and Coming"
+    },
+    {
+        "FileName": "Payout22.png",
+        "Text": "{^Influence} {^Influence} \n \n Appoint a Noble to be Under Investigation \n \n Add a Noble"
+    },
+    {
+        "FileName": "Payout23.png",
+        "Text": "{^Influence} {^Influence} \n \n Remove a Noble \n \n Appoint a Noble to be Under Investigation"
+    },
+    {
+        "FileName": "Payout24.png",
+        "Text": "{^Influence} {^Influence} \n \n Set Media District's Control"
+    },
+    {
+        "FileName": "Payout25.png",
+        "Text": "{^Influence} {^Influence} \n \n Set Research District's Control"
+    },
+    {
+        "FileName": "Payout26.png",
+        "Text": "{^Influence} {^Influence} \n \n Set Intelligence District's Control"
+    },
+    {
+        "FileName": "Payout27.png",
+        "Text": "{^Influence} {^Influence} \n \n Set Military District's Control"
+    },
+    {
+        "FileName": "Payout28.png",
+        "Text": "{^Influence} {^Influence} \n \n Set Commercial District's Control"
+    },
+    {
+        "FileName": "Payout29.png",
+        "Text": "{^Influence} {^Influence} \n \n Set Surveillance District's Control"
+    },
+]

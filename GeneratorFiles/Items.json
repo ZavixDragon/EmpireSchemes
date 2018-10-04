@@ -1,0 +1,32 @@
+[
+    {
+        "FileName": "CombatDrugs.png",
+        "Name": "Combat Drugs",
+        "Item": "CombatDrugs"
+    },
+    {
+        "FileName": "ExperimentalWeapon.png",
+        "Name": "Experimental Weapon",
+        "Item": "ExperimentalWeapon"
+    },
+    {
+        "FileName": "SpyDrone.png",
+        "Name": "Spy Drone",
+        "Item": "SpyDrone"
+    },
+    {
+        "FileName": "MediaBroadcast.png",
+        "Name": "Media Broadcast",
+        "Item": "MediaBroadcast"
+    },
+    {
+        "FileName": "HoloprojectorDisguise.png",
+        "Name": "Holoprojector Disguise",
+        "Item": "HoloprojectorDisguise"
+    },
+    {
+        "FileName": "UnregisteredCredChip.png",
+        "Name": "Unregistered Cred Chip",
+        "Item": "UnregisteredCredChip"
+    }
+]

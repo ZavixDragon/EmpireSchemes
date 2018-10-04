@@ -1,0 +1,362 @@
+[
+    {
+        "FileName": "Plan1.png",
+        "Req1": "Empire {^Empire} uses 2 {^CombatDrugs}",
+        "Req2": "Empire {^Empire} uses 2 {^ExperimentalWeapon}",
+        "Req3": "{^Strength} 6+"
+    },
+    {
+        "FileName": "Plan2.png",
+        "Req1": "Empire {^Empire} uses 2 {^ExperimentalWeapon}",
+        "Req2": "Empire {^Empire} uses 2 {^SpyDrone}",
+        "Req3": "{^Strength} 4-"
+    },
+    {
+        "FileName": "Plan3.png",
+        "Req1": "Empire {^Empire} uses 2 {^SpyDrone}",
+        "Req2": "Empire {^Empire} uses 2 {^MediaBroadcast}",
+        "Req3": "{^Control} 6+"
+    },
+    {
+        "FileName": "Plan4.png",
+        "Req1": "Empire {^Empire} uses 2 {^MediaBroadcast}",
+        "Req2": "Empire {^Empire} uses 2 {^HoloprojectorDisguise}",
+        "Req3": "{^Control} 4+"
+    },
+    {
+        "FileName": "Plan5.png",
+        "Req1": "Empire {^Empire} uses 2 {^HoloprojectorDisguise}",
+        "Req2": "Empire {^Empire} uses 2 {^UnregisteredCredChip}",
+        "Req3": "{^Wealth} 4-"
+    },
+    {
+        "FileName": "Plan6.png",
+        "Req1": "Empire {^Empire} uses 2 {^UnregisteredCredChip}",
+        "Req2": "Empire {^Empire} uses 2 {^CombatDrugs}",
+        "Req3": "{^Wealth} 6+"
+    },
+    {
+        "FileName": "Plan7.png",
+        "Req1": "Empire {^Empire} uses 1 {^CombatDrugs}",
+        "Req2": "Empire {^Empire} uses 1 {^SpyDrone}",
+        "Req3": "{^Strength} 8+"
+    },
+    {
+        "FileName": "Plan8.png",
+        "Req1": "Empire {^Empire} uses 1 {^ExperimentalWeapon}",
+        "Req2": "Empire {^Empire} uses 1 {^MediaBroadcast}",
+        "Req3": "{^Control} 8+"
+    },
+    {
+        "FileName": "Plan9.png",
+        "Req1": "Empire {^Empire} uses 1 {^SpyDrone}",
+        "Req2": "Empire {^Empire} uses 1 {^HoloprojectorDisguise}",
+        "Req3": "{^Control} 2-"
+    },
+    {
+        "FileName": "Plan10.png",
+        "Req1": "Empire {^Empire} uses 1 {^MediaBroadcast}",
+        "Req2": "Empire {^Empire} uses 1 {^UnregisteredCredChip}",
+        "Req3": "{^Wealth} 8+"
+    },
+    {
+        "FileName": "Plan11.png",
+        "Req1": "Empire {^Empire} uses 1 {^HoloprojectorDisguise}",
+        "Req2": "Empire {^Empire} uses 1 {^CombatDrugs}",
+        "Req3": "{^Strength} 2-"
+    },
+    {
+        "FileName": "Plan12.png",
+        "Req1": "Empire {^Empire} uses 1 {^UnregisteredCredChip}",
+        "Req2": "Empire {^Empire} uses 1 {^ExperimentalWeapon}",
+        "Req3": "{^Wealth} 2-"
+    },
+    {
+        "FileName": "Plan13.png",
+        "Req1": "Empire {^Empire} uses 2 {^CombatDrugs}",
+        "Req2": "Empire {^Empire} uses 1 {^MediaBroadcast}",
+        "Req3": "{^Strength} 7+"
+    },
+    {
+        "FileName": "Plan14.png",
+        "Req1": "Empire {^Empire} uses 2 {^ExperimentalWeapon}",
+        "Req2": "Empire {^Empire} uses 1 {^HoloprojectorDisguise}",
+        "Req3": "{^Strength} 3-"
+    },
+    {
+        "FileName": "Plan15.png",
+        "Req1": "Empire {^Empire} uses 2 {^SpyDrone}",
+        "Req2": "Empire {^Empire} uses 1 {^UnregisteredCredChip}",
+        "Req3": "{^Control} 7+"
+    },
+    {
+        "FileName": "Plan16.png",
+        "Req1": "Empire {^Empire} uses 2 {^MediaBroadcast}",
+        "Req2": "Empire {^Empire} uses 1 {^CombatDrugs}",
+        "Req3": "{^Control} 3-"
+    },
+    {
+        "FileName": "Plan17.png",
+        "Req1": "Empire {^Empire} uses 2 {^HoloprojectorDisguise}",
+        "Req2": "Empire {^Empire} uses 1 {^ExperimentalWeapon}",
+        "Req3": "{^Wealth} 3-"
+    },
+    {
+        "FileName": "Plan18.png",
+        "Req1": "Empire {^Empire} uses 2 {^UnregisteredCredChip}",
+        "Req2": "Empire {^Empire} uses 1 {^SpyDrone}",
+        "Req3": "{^Wealth} 7+"
+    },
+    {
+        "FileName": "Plan19.png",
+        "Req1": "Empire {^Empire} uses 2 {^CombatDrugs}",
+        "Req2": "{^Strength} 7+",
+        "Req3": "{^Wealth} 4-"
+    },
+    {
+        "FileName": "Plan20.png",
+        "Req1": "Empire {^Empire} uses 2 {^ExperimentalWeapon}",
+        "Req2": "{^Wealth} 3-",
+        "Req3": "{^Strength} 4-"
+    },
+    {
+        "FileName": "Plan21.png",
+        "Req1": "Empire {^Empire} uses 2 {^SpyDrone}",
+        "Req2": "{^Control} 3-",
+        "Req3": "{^Strength} 6+"
+    },
+    {
+        "FileName": "Plan22.png",
+        "Req1": "Empire {^Empire} uses 2 {^HoloprojectorDisguise}",
+        "Req2": "{^Strength} 3-",
+        "Req3": "{^Control} 6+"
+    },
+    {
+        "FileName": "Plan23.png",
+        "Req1": "Empire {^Empire} uses 2 {^MediaBroadcast}",
+        "Req2": "{^Control} 7+",
+        "Req3": "{^Wealth} 6+"
+    },
+    {
+        "FileName": "Plan24.png",
+        "Req1": "Empire {^Empire} uses 2 {^UnregisteredCredChip}",
+        "Req2": "{^Wealth} 7+",
+        "Req3": "{^Control} 4-"
+    },
+    {
+        "FileName": "Plan25.png",
+        "Req1": "Empire {^Empire} uses 1 {^ExperimentalWeapon}",
+        "Req2": "{^Strength} 2-",
+        "Req3": "{^Wealth} 6+"
+    },
+    {
+        "FileName": "Plan26.png",
+        "Req1": "Empire {^Empire} uses 1 {^CombatDrugs}",
+        "Req2": "{^Wealth} 8+",
+        "Req3": "{^Strength} 6+"
+    },
+    {
+        "FileName": "Plan27.png",
+        "Req1": "Empire {^Empire} uses 1 {^HoloprojectorDisguise}",
+        "Req2": "{^Control} 2-",
+        "Req3": "{^Strength} 4-"
+    },
+    {
+        "FileName": "Plan28.png",
+        "Req1": "Empire {^Empire} uses 1 {^SpyDrone}",
+        "Req2": "{^Strength} 8+",
+        "Req3": "{^Control} 6+"
+    },
+    {
+        "FileName": "Plan29.png",
+        "Req1": "Empire {^Empire} uses 1 {^MediaBroadcast}",
+        "Req2": "{^Control} 8+",
+        "Req3": "{^Wealth} 4-"
+    },
+    {
+        "FileName": "Plan30.png",
+        "Req1": "Empire {^Empire} uses 1 {^UnregisteredCredChip}",
+        "Req2": "{^Wealth} 2-",
+        "Req3": "{^Control} 4-"
+    },
+    {
+        "FileName": "Plan31.png",
+        "Req1": "Rebel {^Rebel} uses 2 {^CombatDrugs}",
+        "Req2": "Rebel {^Rebel} uses 2 {^ExperimentalWeapon}",
+        "Req3": "{^Strength} 4-"
+    },
+    {
+        "FileName": "Plan32.png",
+        "Req1": "Rebel {^Rebel} uses 2 {^ExperimentalWeapon}",
+        "Req2": "Rebel {^Rebel} uses 2 {^SpyDrone}",
+        "Req3": "{^Strength} 6+"
+    },
+    {
+        "FileName": "Plan33.png",
+        "Req1": "Rebel {^Rebel} uses 2 {^SpyDrone}",
+        "Req2": "Rebel {^Rebel} uses 2 {^MediaBroadcast}",
+        "Req3": "{^Control} 4-"
+    },
+    {
+        "FileName": "Plan34.png",
+        "Req1": "Rebel {^Rebel} uses 2 {^MediaBroadcast}",
+        "Req2": "Rebel {^Rebel} uses 2 {^HoloprojectorDisguise}",
+        "Req3": "{^Control} 6+"
+    },
+    {
+        "FileName": "Plan35.png",
+        "Req1": "Rebel {^Rebel} uses 2 {^HoloprojectorDisguise}",
+        "Req2": "Rebel {^Rebel} uses 2 {^UnregisteredCredChip}",
+        "Req3": "{^Wealth} 6+"
+    },
+    {
+        "FileName": "Plan36.png",
+        "Req1": "Rebel {^Rebel} uses 2 {^UnregisteredCredChip}",
+        "Req2": "Rebel {^Rebel} uses 2 {^CombatDrugs}",
+        "Req3": "{^Wealth} 4-"
+    },
+    {
+        "FileName": "Plan37.png",
+        "Req1": "Rebel {^Rebel} uses 1 {^CombatDrugs}",
+        "Req2": "Rebel {^Rebel} uses 1 {^SpyDrone}",
+        "Req3": "{^Strength} 2-"
+    },
+    {
+        "FileName": "Plan38.png",
+        "Req1": "Rebel {^Rebel} uses 1 {^ExperimentalWeapon}",
+        "Req2": "Rebel {^Rebel} uses 1 {^MediaBroadcast}",
+        "Req3": "{^Control} 2-"
+    },
+    {
+        "FileName": "Plan39.png",
+        "Req1": "Rebel {^Rebel} uses 1 {^SpyDrone}",
+        "Req2": "Rebel {^Rebel} uses 1 {^HoloprojectorDisguise}",
+        "Req3": "{^Control} 8+"
+    },
+    {
+        "FileName": "Plan40.png",
+        "Req1": "Rebel {^Rebel} uses 1 {^MediaBroadcast}",
+        "Req2": "Rebel {^Rebel} uses 1 {^UnregisteredCredChip}",
+        "Req3": "{^Wealth} 2-"
+    },
+    {
+        "FileName": "Plan41.png",
+        "Req1": "Rebel {^Rebel} uses 1 {^HoloprojectorDisguise}",
+        "Req2": "Rebel {^Rebel} uses 1 {^CombatDrugs}",
+        "Req3": "{^Strength} 8+"
+    },
+    {
+        "FileName": "Plan42.png",
+        "Req1": "Rebel {^Rebel} uses 1 {^UnregisteredCredChip}",
+        "Req2": "Rebel {^Rebel} uses 1 {^ExperimentalWeapon}",
+        "Req3": "{^Wealth} 8+"
+    },
+    {
+        "FileName": "Plan43.png",
+        "Req1": "Rebel {^Rebel} uses 2 {^CombatDrugs}",
+        "Req2": "Rebel {^Rebel} uses 1 {^MediaBroadcast}",
+        "Req3": "{^Strength} 3-"
+    },
+    {
+        "FileName": "Plan44.png",
+        "Req1": "Rebel {^Rebel} uses 2 {^ExperimentalWeapon}",
+        "Req2": "Rebel {^Rebel} uses 1 {^HoloprojectorDisguise}",
+        "Req3": "{^Strength} 7+"
+    },
+    {
+        "FileName": "Plan45.png",
+        "Req1": "Rebel {^Rebel} uses 2 {^SpyDrone}",
+        "Req2": "Rebel {^Rebel} uses 1 {^UnregisteredCredChip}",
+        "Req3": "{^Control} 3-"
+    },
+    {
+        "FileName": "Plan46.png",
+        "Req1": "Rebel {^Rebel} uses 2 {^MediaBroadcast}",
+        "Req2": "Rebel {^Rebel} uses 1 {^CombatDrugs}",
+        "Req3": "{^Control} 7+"
+    },
+    {
+        "FileName": "Plan47.png",
+        "Req1": "Rebel {^Rebel} uses 2 {^HoloprojectorDisguise}",
+        "Req2": "Rebel {^Rebel} uses 1 {^ExperimentalWeapon}",
+        "Req3": "{^Wealth} 7+"
+    },
+    {
+        "FileName": "Plan48.png",
+        "Req1": "Rebel {^Rebel} uses 2 {^UnregisteredCredChip}",
+        "Req2": "Rebel {^Rebel} uses 1 {^SpyDrone}",
+        "Req3": "{^Wealth} 3-"
+    },
+    {
+        "FileName": "Plan49.png",
+        "Req1": "Rebel {^Rebel} uses 2 {^CombatDrugs}",
+        "Req2": "{^Strength} 3-",
+        "Req3": "{^Wealth} 6+"
+    },
+    {
+        "FileName": "Plan50.png",
+        "Req1": "Rebel {^Rebel} uses 2 {^ExperimentalWeapon}",
+        "Req2": "{^Wealth} 7+",
+        "Req3": "{^Strength} 6+"
+    },
+    {
+        "FileName": "Plan51.png",
+        "Req1": "Rebel {^Rebel} uses 2 {^SpyDrone}",
+        "Req2": "{^Control} 7+",
+        "Req3": "{^Strength} 4-"
+    },
+    {
+        "FileName": "Plan52.png",
+        "Req1": "Rebel {^Rebel} uses 2 {^HoloprojectorDisguise}",
+        "Req2": "{^Strength} 7+",
+        "Req3": "{^Control} 4-"
+    },
+    {
+        "FileName": "Plan53.png",
+        "Req1": "Rebel {^Rebel} uses 2 {^MediaBroadcast}",
+        "Req2": "{^Control} 3-",
+        "Req3": "{^Wealth} 4-"
+    },
+    {
+        "FileName": "Plan54.png",
+        "Req1": "Rebel {^Rebel} uses 2 {^UnregisteredCredChip}",
+        "Req2": "{^Wealth} 3-",
+        "Req3": "{^Control} 6+"
+    },
+    {
+        "FileName": "Plan55.png",
+        "Req1": "Rebel {^Rebel} uses 1 {^ExperimentalWeapon}",
+        "Req2": "{^Strength} 8+",
+        "Req3": "{^Wealth} 4-"
+    },
+    {
+        "FileName": "Plan56.png",
+        "Req1": "Rebel {^Rebel} uses 1 {^CombatDrugs}",
+        "Req2": "{^Wealth} 2-",
+        "Req3": "{^Strength} 4-"
+    },
+    {
+        "FileName": "Plan57.png",
+        "Req1": "Rebel {^Rebel} uses 1 {^HoloprojectorDisguise}",
+        "Req2": "{^Control} 8+",
+        "Req3": "{^Strength} 6+"
+    },
+    {
+        "FileName": "Plan58.png",
+        "Req1": "Rebel {^Rebel} uses 1 {^SpyDrone}",
+        "Req2": "{^Strength} 2-",
+        "Req3": "{^Control} 4-"
+    },
+    {
+        "FileName": "Plan59.png",
+        "Req1": "Rebel {^Rebel} uses 1 {^MediaBroadcast}",
+        "Req2": "{^Control} 2-",
+        "Req3": "{^Wealth} 6+"
+    },
+    {
+        "FileName": "Plan60.png",
+        "Req1": "Rebel {^Rebel} uses 1 {^UnregisteredCredChip}",
+        "Req2": "{^Wealth} 8+",
+        "Req3": "{^Control} 6+"
+    },
+]

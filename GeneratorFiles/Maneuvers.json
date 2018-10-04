@@ -1,116 +1,46 @@
 [
     {
-        "FileName": "Special1.png",
-        "IsSpecial": "true",
-        "Special": "Blue Agent takes Building Action",
-        "IsBasic": "false"
+        "FileName": "Maneuver1.png",
+        "Text": "Cancel the next card in queue"
     },
     {
-        "FileName": "Special2.png",
-        "IsSpecial": "true",
-        "Special": "Red Agent takes Building Action",
-        "IsBasic": "false"
+        "FileName": "Maneuver2.png",
+        "Text": "Reverse the effect of the next Basic Maneuver (Reversing an item gaining Basic switches which side it goes to)"
     },
     {
-        "FileName": "Special3.png",
-        "IsSpecial": "true",
-        "Special": "Green Agent takes Building Action",
-        "IsBasic": "false"
+        "FileName": "Maneuver3.png",
+        "Text": "Double the effect of the next Basic Maneuver"
     },
     {
-        "FileName": "Special4.png",
-        "IsSpecial": "true",
-        "Special": "Move Blue Agent to Unoccupied Location",
-        "IsBasic": "false"
+        "FileName": "Maneuver4.png",
+        "Text": "Repeat the previous card's effect including all modifiers"
     },
     {
-        "FileName": "Special5.png",
-        "IsSpecial": "true",
-        "Special": "Move Red Agent to Unoccupied Location",
-        "IsBasic": "false"
+        "FileName": "Maneuver5.png",
+        "Text": "Swap the next 2 cards in queue"
     },
     {
-        "FileName": "Special6.png",
-        "IsSpecial": "true",
-        "Special": "Move Green Agent to Unoccupied Location",
-        "IsBasic": "false"
+        "FileName": "Maneuver6.png",
+        "Text": "All Strength {^Strength} gains are increased by 1 for the rest of the turn"
     },
     {
-        "FileName": "Special7.png",
-        "IsSpecial": "true",
-        "Special": "Remove the next card from the Queue",
-        "IsBasic": "false"
+        "FileName": "Maneuver7.png",
+        "Text": "All Wealth {^Wealth} gains are increased by 1 for the rest of the turn"
     },
     {
-        "FileName": "Special8.png",
-        "IsSpecial": "true",
-        "Special": "Repeat the last card’s effect including all modifiers",
-        "IsBasic": "false"
+        "FileName": "Maneuver8.png",
+        "Text": "All Control {^Control} gains are increased by 1 for the rest of the turn"
     },
     {
-        "FileName": "Special9.png",
-        "IsSpecial": "true",
-        "Special": "Double the next Basic card",
-        "IsBasic": "false"
+        "FileName": "Maneuver9.png",
+        "Text": "All Strength {^Strength} losses are increased by 1 for the rest of the turn"
     },
     {
-        "FileName": "Special10.png",
-        "IsSpecial": "true",
-        "Special": "Reverse the effect of the next Basic card",
-        "IsBasic": "false"
+        "FileName": "Maneuver10.png",
+        "Text": "All Wealth {^Wealth} losses are increased by 1 for the rest of the turn"
     },
     {
-        "FileName": "Special11.png",
-        "IsSpecial": "true",
-        "Special": "If Emperor is in {^Control} Room, Move Emperor to any other Room \n Else Move the Emperor to the {^Control} Room",
-        "IsBasic": "false"
-    },
-    {
-        "FileName": "Special12.png",
-        "IsSpecial": "true",
-        "Special": "If Emperor is in {^Strength} Room, Move Emperor to any other Room \n Else Move the Emperor to the {^Strength} Room",
-        "IsBasic": "false"
-    },
-    {
-        "FileName": "Special13.png",
-        "IsSpecial": "true",
-        "Special": "If Emperor is in {^Wealth} Room, Move Emperor to any other Room \n Else Move the Emperor to the {^Wealth} Room",
-        "IsBasic": "false"
-    },
-    {
-        "FileName": "Basic1.png",
-        "IsSpecial": "false",
-        "IsBasic": "true",
-        "Basic": "+2 {^Control}"
-    },
-    {
-        "FileName": "Basic2.png",
-        "IsSpecial": "false",
-        "IsBasic": "true",
-        "Basic": "-2 {^Control}"
-    },
-    {
-        "FileName": "Basic3.png",
-        "IsSpecial": "false",
-        "IsBasic": "true",
-        "Basic": "+2 {^Strength}"
-    },
-    {
-        "FileName": "Basic4.png",
-        "IsSpecial": "false",
-        "IsBasic": "true",
-        "Basic": "-2 {^Strength}"
-    },
-    {
-        "FileName": "Basic5.png",
-        "IsSpecial": "false",
-        "IsBasic": "true",
-        "Basic": "+2 {^Wealth}"
-    },
-    {
-        "FileName": "Basic6.png",
-        "IsSpecial": "false",
-        "IsBasic": "true",
-        "Basic": "-2 {^Wealth}"
+        "FileName": "Maneuver11.png",
+        "Text": "All Control {^Control} losses are increased by 1 for the rest of the turn"
     }
 ]

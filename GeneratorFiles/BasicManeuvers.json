@@ -1,0 +1,74 @@
+[
+    {
+        "FileName": "StrengthEmpire.png",
+        "Text": "+1 {^Strength}"
+    },
+    {
+        "FileName": "StrengthRebel.png",
+        "Text": "-1 {^Strength}"
+    },
+    {
+        "FileName": "WealthEmpire.png",
+        "Text": "+1 {^Wealth}"
+    },
+    {
+        "FileName": "WealthRebel.png",
+        "Text": "-1 {^Wealth}"
+    },
+    {
+        "FileName": "ControlEmpire.png",
+        "Text": "+1 {^Control}"
+    },
+    {
+        "FileName": "ControlRebel.png",
+        "Text": "-1 {^Control}"
+    },
+    {
+        "FileName": "CombatDrugsEmpire.png",
+        "Text": "Empire {^Empire} Gains {^CombatDrugs}"
+    },
+    {
+        "FileName": "CombatDrugsRebel.png",
+        "Text": "Rebel {^Rebel} Gains {^CombatDrugs}"
+    },
+    {
+        "FileName": "ExperimentalWeaponEmpire.png",
+        "Text": "Empire {^Empire} Gains {^ExperimentalWeapon}"
+    },
+    {
+        "FileName": "ExperimentalWeaponRebel.png",
+        "Text": "Rebel {^Rebel} Gains {^ExperimentalWeapon}"
+    },
+    {
+        "FileName": "SpyDroneEmpire.png",
+        "Text": "Empire {^Empire} Gains {^SpyDrone}"
+    },
+    {
+        "FileName": "SpyDroneRebel.png",
+        "Text": "Rebel {^Rebel} Gains {^SpyDrone}"
+    },
+    {
+        "FileName": "MediaBroadcastEmpire.png",
+        "Text": "Empire {^Empire} Gains {^MediaBroadcast}"
+    },
+    {
+        "FileName": "MediaBroadcastRebel.png",
+        "Text": "Rebel {^Rebel} Gains {^MediaBroadcast}"
+    },
+    {
+        "FileName": "HoloprojectorDisguiseEmpire.png",
+        "Text": "Empire {^Empire} Gains {^HoloprojectorDisguise}"
+    },
+    {
+        "FileName": "HoloprojectorDisguiseRebel.png",
+        "Text": "Rebel {^Rebel} Gains {^HoloprojectorDisguise}"
+    },
+    {
+        "FileName": "UnregisteredCredChipEmpire.png",
+        "Text": "Empire {^Empire} Gains {^UnregisteredCredChip}"
+    },
+    {
+        "FileName": "UnregisteredCredChipRebel.png",
+        "Text": "Rebel {^Rebel} Gains {^UnregisteredCredChip}"
+    }
+]

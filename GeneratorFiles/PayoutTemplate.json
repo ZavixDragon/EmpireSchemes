@@ -1,11 +1,8 @@
 {
-    "Path": "Maneuvers",
+    "Path": "Payouts",
     "Keywords": 
     {
-        "Strength": "../LongLiveTheEmpire/Strength.png", 
-        "Wealth": "../LongLiveTheEmpire/Wealth.png", 
-        "Control": "../LongLiveTheEmpire/Control.png",
-        
+        "Influence": "../LongLiveTheEmpire/Influence.png",
         "Font": "Lato",
         "Regular": "0",
         "Bold": "1"
