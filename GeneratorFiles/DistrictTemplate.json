@@ -1,0 +1,52 @@
+{
+    "Path": "Districts",
+    "Keywords": {
+        "Commercial": "../LongLiveTheEmpire/CommercialDistrict.png", 
+        "Intelligence": "../LongLiveTheEmpire/IntelligenceDistrict.png", 
+        "Surveillance": "../LongLiveTheEmpire/SurveillanceDistrict.png",
+        "Research": "../LongLiveTheEmpire/ResearchDistrict.png",
+        "Media": "../LongLiveTheEmpire/MediaDistrict.png",
+        "Military": "../LongLiveTheEmpire/MilitaryDistrict.png",
+
+        "Font": "Lato",
+        "Regular": "0",
+        "Bold": "1"
+    },
+    "Canvas": 
+    {
+        "Width": "674",
+        "Height": "1050"
+    },
+    "Items": 
+    [
+        {
+            "Type": "Border",
+            "X": "0",
+            "Y": "0",
+            "Width": "674",
+            "Height": "1050",
+            "Thickness": "6",
+            "Alignment": "Inner"
+        },
+        {
+            "Type": "Text",
+            "Content": "*Name",
+            "Font": "^Font",
+            "FontSize": "50",
+            "FontStyle": "^Bold",
+            "X": "37",
+            "Y": "25", 
+            "Width": "600",
+            "Height": "1000",
+            "VerticalTextAlign": "Top"
+        },
+        {
+            "Type": "Image",
+            "Source": "^*District",
+            "X": "87",
+            "Y": "275", 
+            "Width": "500",
+            "Height": "500"
+        }
+    ]
+}

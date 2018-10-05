@@ -1,0 +1,32 @@
+[
+    {
+        "FileName": "Military.png",
+        "Name": "Military \n District",
+        "District": "Military"
+    },
+    {
+        "FileName": "Media.png",
+        "Name": "Media \n District",
+        "District": "Media"
+    },
+    {
+        "FileName": "Commercial.png",
+        "Name": "Commercial \n District",
+        "District": "Commercial"
+    },
+    {
+        "FileName": "Intelligence.png",
+        "Name": "Intelligence \n District",
+        "District": "Intelligence"
+    },
+    {
+        "FileName": "Surveillance.png",
+        "Name": "Surveillance \n District",
+        "District": "Surveillance"
+    },
+    {
+        "FileName": "Research.png",
+        "Name": "Research \n District",
+        "District": "Research"
+    }
+]

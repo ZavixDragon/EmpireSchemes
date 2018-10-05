@@ -1,0 +1,17 @@
+[
+    {
+        "FileName": "GreedyNoble.png",
+        "Name": "Greedy Noble",
+        "Color": "66bb6a"
+    },
+    {
+        "FileName": "PowerfulNoble.png",
+        "Name": "Powerful Noble",
+        "Color": "ef5350"
+    },
+    {
+        "FileName": "ManipulativeNoble.png",
+        "Name": "Manipulative Noble",
+        "Color": "42a5f5"
+    },
+]

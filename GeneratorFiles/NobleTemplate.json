@@ -1,0 +1,44 @@
+{
+    "Path": "Nobles",
+    "Keywords": {
+        "Font": "Lato",
+        "Regular": "0",
+        "Bold": "1"
+    },
+    "Canvas": 
+    {
+        "Width": "674",
+        "Height": "1050"
+    },
+    "Items": 
+    [
+        {
+            "Type": "Rectangle",
+            "X": "0",
+            "Y": "0",
+            "Width": "674",
+            "Height": "1050",
+            "Color": "*Color"
+        },
+        {
+            "Type": "Border",
+            "X": "0",
+            "Y": "0",
+            "Width": "674",
+            "Height": "1050",
+            "Thickness": "6",
+            "Alignment": "Inner"
+        },
+        {
+            "Type": "Text",
+            "Content": "*Name",
+            "Font": "^Font",
+            "FontSize": "50",
+            "FontStyle": "^Bold",
+            "X": "37",
+            "Y": "25", 
+            "Width": "600",
+            "Height": "1000"
+        }
+    ]
+}
