@@ -1,19 +1,7 @@
 [
     {
-        "FileName": "Plot.png",
-        "Back": "Plot"
-    },
-    {
-        "FileName": "RedCitadelRoom.png",
-        "Back": "{^Strength} Citadel Room"
-    },
-    {
-        "FileName": "GreenCitadelRoom.png",
-        "Back": "{^Wealth} Citadel Room"
-    },
-    {
-        "FileName": "BlueCitadelRoom.png",
-        "Back": "{^Control} Citadel Room"
+        "FileName": "BasicManeuver.png",
+        "Back": "Basic Maneuver"
     },
     {
         "FileName": "Maneuver.png",
@@ -22,5 +10,29 @@
     {
         "FileName": "SpecialManeuver.png",
         "Back": "Special Maneuver"
+    },
+    {
+        "FileName": "DefaultSpecialManeuver.png",
+        "Back": "Default Special Maneuver"
+    },
+    {
+        "FileName": "Plan.png",
+        "Back": "Plan"
+    },
+    {
+        "FileName": "Payout.png",
+        "Back": "Payout"
+    },
+    {
+        "FileName": "District.png",
+        "Back": "District"
+    },
+    {
+        "FileName": "Noble.png",
+        "Back": "Noble"
+    },
+    {
+        "FileName": "Item.png",
+        "Back": "Item"
     }
 ]

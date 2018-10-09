@@ -36,6 +36,17 @@
             "Y": "25", 
             "Width": "600",
             "Height": "1000"
+        },
+        {
+            "Type": "Text",
+            "Content": "Maneuver",
+            "Font": "^Font",
+            "FontSize": "40",
+            "FontStyle": "^Bold",
+            "X": "37",
+            "Y": "990", 
+            "Width": "600",
+            "Height": "50"
         }
     ]
 }

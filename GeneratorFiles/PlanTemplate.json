@@ -66,6 +66,17 @@
             "Y": "695", 
             "Width": "600",
             "Height": "60"
+        },
+        {
+            "Type": "Text",
+            "Content": "Plan",
+            "Font": "^Font",
+            "FontSize": "40",
+            "FontStyle": "^Bold",
+            "X": "37",
+            "Y": "990", 
+            "Width": "600",
+            "Height": "50"
         }
     ]
 }

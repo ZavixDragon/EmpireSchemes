@@ -20,14 +20,6 @@
     "Items": 
     [
         {
-            "Type": "Rectangle",
-            "X": "0",
-            "Y": "0",
-            "Width": "1050",
-            "Height": "674",
-            "Color": "A1887F"
-        },
-        {
             "Type": "Border",
             "X": "0",
             "Y": "0",

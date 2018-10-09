@@ -2,6 +2,12 @@
     "Path": "Payouts",
     "Keywords": 
     {
+        "Commercial": "../LongLiveTheEmpire/CommercialDistrict.png", 
+        "Intelligence": "../LongLiveTheEmpire/IntelligenceDistrict.png", 
+        "Surveillance": "../LongLiveTheEmpire/SurveillanceDistrict.png",
+        "Research": "../LongLiveTheEmpire/ResearchDistrict.png",
+        "Media": "../LongLiveTheEmpire/MediaDistrict.png",
+        "Military": "../LongLiveTheEmpire/MilitaryDistrict.png",
         "Influence": "../LongLiveTheEmpire/Influence.png",
         "Font": "Lato",
         "Regular": "0",
@@ -33,6 +39,17 @@
             "Y": "25", 
             "Width": "600",
             "Height": "1000"
+        },
+        {
+            "Type": "Text",
+            "Content": "Payout",
+            "Font": "^Font",
+            "FontSize": "40",
+            "FontStyle": "^Bold",
+            "X": "37",
+            "Y": "990", 
+            "Width": "600",
+            "Height": "50"
         }
     ]
 }

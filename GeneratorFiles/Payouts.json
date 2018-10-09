@@ -72,6 +72,10 @@
         "Text": "{^Influence} {^Influence} \n \n Appoint a Scapegoat \n \n Add a Noble"
     },
     {
+        "FileName": "Payout19.png",
+        "Text": "{^Influence} {^Influence} \n \n Remove a Noble \n \n Appoint a Scapegoat"
+    },
+    {
         "FileName": "Payout20.png",
         "Text": "{^Influence} {^Influence} \n \n Add a Noble \n \n Assign an Up and Coming"
     },
@@ -89,26 +93,26 @@
     },
     {
         "FileName": "Payout24.png",
-        "Text": "{^Influence} {^Influence} \n \n Set Media District's Control"
+        "Text": "{^Influence} {^Influence} \n \n Set Media District's {^Media} Control"
     },
     {
         "FileName": "Payout25.png",
-        "Text": "{^Influence} {^Influence} \n \n Set Research District's Control"
+        "Text": "{^Influence} {^Influence} \n \n Set Research District's {^Research} Control"
     },
     {
         "FileName": "Payout26.png",
-        "Text": "{^Influence} {^Influence} \n \n Set Intelligence District's Control"
+        "Text": "{^Influence} {^Influence} \n \n Set Intelligence District's {^Intelligence} Control"
     },
     {
         "FileName": "Payout27.png",
-        "Text": "{^Influence} {^Influence} \n \n Set Military District's Control"
+        "Text": "{^Influence} {^Influence} \n \n Set Military District's {^Military} Control"
     },
     {
         "FileName": "Payout28.png",
-        "Text": "{^Influence} {^Influence} \n \n Set Commercial District's Control"
+        "Text": "{^Influence} {^Influence} \n \n Set Commercial District's {^Commercial} Control"
     },
     {
         "FileName": "Payout29.png",
-        "Text": "{^Influence} {^Influence} \n \n Set Surveillance District's Control"
+        "Text": "{^Influence} {^Influence} \n \n Set Surveillance District's {^Surveillance} Control"
     },
 ]

@@ -1,0 +1,444 @@
+{
+    "Path": "Goals",
+    "Keywords": {
+        "Commercial": "../LongLiveTheEmpire/CommercialDistrict.png", 
+        "Intelligence": "../LongLiveTheEmpire/IntelligenceDistrict.png", 
+        "Surveillance": "../LongLiveTheEmpire/SurveillanceDistrict.png",
+        "Research": "../LongLiveTheEmpire/ResearchDistrict.png",
+        "Media": "../LongLiveTheEmpire/MediaDistrict.png",
+        "Military": "../LongLiveTheEmpire/MilitaryDistrict.png",
+        "Empire": "../LongLiveTheEmpire/Empire.png", 
+        "Rebel": "../LongLiveTheEmpire/Rebel.png", 
+        "Influence": "../LongLiveTheEmpire/Influence.png",
+        
+        "Font": "Lato",
+        "Regular": "0",
+        "Bold": "1",
+
+        "ReqWidth": "210",
+        "ReqBorderHeight": "160",
+        "ReqBorderThickness": "3",
+        "ReqInfluenceHeight": "40",
+        "ReqTextHeight": "80",
+        "EmpireControl": "Empire {^Empire} Controlled",
+        "RebelControl": "Rebel {^Rebel} Controlled"
+    },
+    "Canvas": 
+    {
+        "Width": "2100",
+        "Height": "1500"
+    },
+    "Items": 
+    [
+        {
+            "Type": "Border",
+            "X": "0",
+            "Y": "0",
+            "Width": "2100",
+            "Height": "1500",
+            "Thickness": "9",
+            "Alignment": "Inner"
+        },
+        {
+            "Type": "Text",
+            "Content": "*Name",
+            "Font": "^Font",
+            "FontSize": "100",
+            "FontStyle": "^Bold",
+            "X": "0",
+            "Y": "50", 
+            "Width": "2100",
+            "Height": "110"
+        },
+        {
+            "Type": "Text",
+            "Content": "*Flavor",
+            "Font": "^Font",
+            "FontSize": "30",
+            "FontStyle": "^Bold",
+            "X": "0",
+            "Y": "160", 
+            "Width": "2100",
+            "Height": "120",
+            "VerticalTextAlign": "Top"
+        },
+        {
+            "Type": "Border",
+            "X": "50",
+            "Y": "300",
+            "Width": "600",
+            "Height": "300",
+            "Thickness": "6",
+            "Alignment": "Outer"
+        },
+        {
+            "Type": "Text",
+            "Content": "{^Influence} {^Influence} {^Influence} {^Influence} {^Influence} {^Influence}",
+            "Font": "^Font",
+            "FontSize": "50",
+            "FontStyle": "^Bold",
+            "X": "50",
+            "Y": "350", 
+            "Width": "600",
+            "Height": "60"
+        },
+        {
+            "Type": "Text",
+            "Content": "or",
+            "Font": "^Font",
+            "FontSize": "30",
+            "FontStyle": "^Bold",
+            "X": "50",
+            "Y": "410", 
+            "Width": "600",
+            "Height": "40"
+        },
+        {
+            "Type": "Text",
+            "Content": "*Six",
+            "Font": "^Font",
+            "FontSize": "40",
+            "FontStyle": "^Bold",
+            "X": "50",
+            "Y": "450", 
+            "Width": "600",
+            "Height": "200"
+        },
+        {
+            "Type": "Border",
+            "X": "750",
+            "Y": "300",
+            "Width": "600",
+            "Height": "300",
+            "Thickness": "6",
+            "Alignment": "Outer"
+        },
+        {
+            "Type": "Text",
+            "Content": "{^Influence} {^Influence} {^Influence} {^Influence} {^Influence}",
+            "Font": "^Font",
+            "FontSize": "50",
+            "FontStyle": "^Bold",
+            "X": "750",
+            "Y": "350", 
+            "Width": "600",
+            "Height": "60"
+        },
+        {
+            "Type": "Text",
+            "Content": "or",
+            "Font": "^Font",
+            "FontSize": "30",
+            "FontStyle": "^Bold",
+            "X": "750",
+            "Y": "410", 
+            "Width": "600",
+            "Height": "40"
+        },
+        {
+            "Type": "Text",
+            "Content": "*Five",
+            "Font": "^Font",
+            "FontSize": "40",
+            "FontStyle": "^Bold",
+            "X": "750",
+            "Y": "450", 
+            "Width": "600",
+            "Height": "200"
+        },
+        {
+            "Type": "Border",
+            "X": "1450",
+            "Y": "300",
+            "Width": "600",
+            "Height": "300",
+            "Thickness": "6",
+            "Alignment": "Outer"
+        },
+        {
+            "Type": "Text",
+            "Content": "{^Influence} {^Influence} {^Influence} {^Influence}",
+            "Font": "^Font",
+            "FontSize": "50",
+            "FontStyle": "^Bold",
+            "X": "1450",
+            "Y": "350", 
+            "Width": "600",
+            "Height": "60"
+        },
+        {
+            "Type": "Text",
+            "Content": "or",
+            "Font": "^Font",
+            "FontSize": "30",
+            "FontStyle": "^Bold",
+            "X": "1450",
+            "Y": "410", 
+            "Width": "600",
+            "Height": "40"
+        },
+        {
+            "Type": "Text",
+            "Content": "*Four",
+            "Font": "^Font",
+            "FontSize": "40",
+            "FontStyle": "^Bold",
+            "X": "1450",
+            "Y": "450", 
+            "Width": "600",
+            "Height": "200"
+        },
+        {
+            "Type": "Border",
+            "X": "50",
+            "Y": "700",
+            "Width": "600",
+            "Height": "300",
+            "Thickness": "6",
+            "Alignment": "Outer"
+        },
+        {
+            "Type": "Text",
+            "Content": "{^Influence} {^Influence} {^Influence}",
+            "Font": "^Font",
+            "FontSize": "50",
+            "FontStyle": "^Bold",
+            "X": "50",
+            "Y": "750", 
+            "Width": "600",
+            "Height": "60"
+        },
+        {
+            "Type": "Text",
+            "Content": "or",
+            "Font": "^Font",
+            "FontSize": "30",
+            "FontStyle": "^Bold",
+            "X": "50",
+            "Y": "810", 
+            "Width": "600",
+            "Height": "40"
+        },
+        {
+            "Type": "Text",
+            "Content": "*Three",
+            "Font": "^Font",
+            "FontSize": "40",
+            "FontStyle": "^Bold",
+            "X": "50",
+            "Y": "850", 
+            "Width": "600",
+            "Height": "200"
+        },
+        {
+            "Type": "Border",
+            "X": "750",
+            "Y": "700",
+            "Width": "600",
+            "Height": "300",
+            "Thickness": "6",
+            "Alignment": "Outer"
+        },
+        {
+            "Type": "Text",
+            "Content": "{^Influence} {^Influence}",
+            "Font": "^Font",
+            "FontSize": "50",
+            "FontStyle": "^Bold",
+            "X": "750",
+            "Y": "750", 
+            "Width": "600",
+            "Height": "60"
+        },
+        {
+            "Type": "Text",
+            "Content": "or",
+            "Font": "^Font",
+            "FontSize": "30",
+            "FontStyle": "^Bold",
+            "X": "750",
+            "Y": "810", 
+            "Width": "600",
+            "Height": "40"
+        },
+        {
+            "Type": "Text",
+            "Content": "*Two",
+            "Font": "^Font",
+            "FontSize": "40",
+            "FontStyle": "^Bold",
+            "X": "750",
+            "Y": "850", 
+            "Width": "600",
+            "Height": "200"
+        },
+        {
+            "Type": "Border",
+            "X": "1450",
+            "Y": "700",
+            "Width": "600",
+            "Height": "300",
+            "Thickness": "6",
+            "Alignment": "Outer"
+        },
+        {
+            "Type": "Text",
+            "Content": "{^Influence}",
+            "Font": "^Font",
+            "FontSize": "50",
+            "FontStyle": "^Bold",
+            "X": "1450",
+            "Y": "750", 
+            "Width": "600",
+            "Height": "60"
+        },
+        {
+            "Type": "Text",
+            "Content": "or",
+            "Font": "^Font",
+            "FontSize": "30",
+            "FontStyle": "^Bold",
+            "X": "1450",
+            "Y": "810", 
+            "Width": "600",
+            "Height": "40"
+        },
+        {
+            "Type": "Text",
+            "Content": "*One",
+            "Font": "^Font",
+            "FontSize": "40",
+            "FontStyle": "^Bold",
+            "X": "1450",
+            "Y": "850", 
+            "Width": "600",
+            "Height": "200"
+        },
+        {
+            "Type": "Border",
+            "X": "50",
+            "Y": "1100",
+            "Width": "600",
+            "Height": "300",
+            "Thickness": "6",
+            "Alignment": "Outer"
+        },
+        {
+            "Type": "Text",
+            "Content": "{^Influence} {^Influence} {^Influence} {^Influence} {^Influence}",
+            "Font": "^Font",
+            "FontSize": "50",
+            "FontStyle": "^Bold",
+            "X": "50",
+            "Y": "1150", 
+            "Width": "600",
+            "Height": "60"
+        },
+        {
+            "Type": "Text",
+            "Content": "or",
+            "Font": "^Font",
+            "FontSize": "30",
+            "FontStyle": "^Bold",
+            "X": "50",
+            "Y": "1210", 
+            "Width": "600",
+            "Height": "40"
+        },
+        {
+            "Type": "Text",
+            "Content": "*Req1",
+            "Font": "^Font",
+            "FontSize": "40",
+            "FontStyle": "^Bold",
+            "X": "50",
+            "Y": "1250", 
+            "Width": "600",
+            "Height": "200"
+        },
+        {
+            "Type": "Border",
+            "X": "750",
+            "Y": "1100",
+            "Width": "600",
+            "Height": "300",
+            "Thickness": "6",
+            "Alignment": "Outer"
+        },
+        {
+            "Type": "Text",
+            "Content": "{^Influence} {^Influence} {^Influence} {^Influence}",
+            "Font": "^Font",
+            "FontSize": "50",
+            "FontStyle": "^Bold",
+            "X": "750",
+            "Y": "1150", 
+            "Width": "600",
+            "Height": "60"
+        },
+        {
+            "Type": "Text",
+            "Content": "or",
+            "Font": "^Font",
+            "FontSize": "30",
+            "FontStyle": "^Bold",
+            "X": "750",
+            "Y": "1210", 
+            "Width": "600",
+            "Height": "40"
+        },
+        {
+            "Type": "Text",
+            "Content": "*Req2",
+            "Font": "^Font",
+            "FontSize": "40",
+            "FontStyle": "^Bold",
+            "X": "750",
+            "Y": "1250", 
+            "Width": "600",
+            "Height": "200"
+        },
+        {
+            "Type": "Border",
+            "X": "1450",
+            "Y": "1100",
+            "Width": "600",
+            "Height": "300",
+            "Thickness": "6",
+            "Alignment": "Outer"
+        },
+        {
+            "Type": "Text",
+            "Content": "{^Influence} {^Influence} {^Influence}",
+            "Font": "^Font",
+            "FontSize": "50",
+            "FontStyle": "^Bold",
+            "X": "1450",
+            "Y": "1150", 
+            "Width": "600",
+            "Height": "60"
+        },
+        {
+            "Type": "Text",
+            "Content": "or",
+            "Font": "^Font",
+            "FontSize": "30",
+            "FontStyle": "^Bold",
+            "X": "1450",
+            "Y": "1210", 
+            "Width": "600",
+            "Height": "40"
+        },
+        {
+            "Type": "Text",
+            "Content": "*Req3",
+            "Font": "^Font",
+            "FontSize": "40",
+            "FontStyle": "^Bold",
+            "X": "1450",
+            "Y": "1250", 
+            "Width": "600",
+            "Height": "200"
+        }
+    ]
+}

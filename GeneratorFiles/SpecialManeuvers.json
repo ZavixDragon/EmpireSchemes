@@ -1,0 +1,58 @@
+[
+    {
+        "FileName": "SpecialManeuver1.png",
+        "Text": "Take the First Player Marker"
+    },
+    {
+        "FileName": "SpecialManeuver2.png",
+        "Text": "Take the Plan Priority Marker"
+    },
+    {
+        "FileName": "SpecialManeuver3.png",
+        "Text": "Gain 1 Manipulation Token"
+    },
+    {
+        "FileName": "SpecialManeuver4.png",
+        "Text": "Replace this card with a Basic Item card and execute it"
+    },
+    {
+        "FileName": "SpecialManeuver5.png",
+        "Text": "Replace this card with a Basic Non-Item card and execute it"
+    },
+    {
+        "FileName": "SpecialManeuver6.png",
+        "Text": "Choose one Item to switch sides"
+    },
+    {
+        "FileName": "SpecialManeuver7.png",
+        "Text": "Choose to set Strength, Wealth, or Control back to 5"
+    },
+    {
+        "FileName": "SpecialManeuver8.png",
+        "Text": "Invert a Plan's Requirements for the rest of the round (6+ -> 4-) (Empire uses Item -> Rebel uses Item)"
+    },
+    {
+        "FileName": "SpecialManeuver9.png",
+        "Text": "Reverse or Double the next Basic card"
+    },
+    {
+        "FileName": "SpecialManeuver10.png",
+        "Text": "Cancel the next card or Repeat the previous card's effect including all modifiers"
+    },
+    {
+        "FileName": "SpecialManeuver11.png",
+        "Text": "Choose the order of the next 3 cards"
+    },
+    {
+        "FileName": "SpecialManeuver12.png",
+        "Text": "Choose for Strength {^Strength} to gain or lose 2"
+    },
+    {
+        "FileName": "SpecialManeuver13.png",
+        "Text": "Choose for Wealth {^Wealth} to gain or lose 2"
+    },
+    {
+        "FileName": "SpecialManeuver14.png",
+        "Text": "Choose for Control {^Control} to gain or lose 2"
+    },
+]
