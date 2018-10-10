@@ -141,7 +141,7 @@
     },
     {
         "FileName": "DoomBringerAsh.png",
-        "Name": "Disowned Prince Drogo",
+        "Name": "Doom Bringer Ash",
         "Flavor": "Watch out empire Ash is here! Buildings look so pretty when they explode! Catch me if you can!",
         "Six": "Rebel {^Rebel} controls Research District {^Research}",
         "Five": "Empire {^Empire} controls Military District {^Military}",
@@ -154,9 +154,9 @@
         "Req3": "Powerful Nobles 2-"
     },
     {
-        "FileName": "DoomBringerAsh.png",
-        "Name": "Disowned Prince Drogo",
-        "Flavor": "Watch out empire Ash is here! Buildings look so pretty when they explode! Catch me if you can!",
+        "FileName": "RebellionLeaderZero.png",
+        "Name": "Rebellion Leader Zero",
+        "Flavor": "This tyranny has lasted far too long, I will bring it down with my own hands.",
         "Six": "Rebel {^Rebel} controls Media District {^Media}",
         "Five": "Rebel {^Rebel} controls Research District {^Research}",
         "Four": "Rebel {^Rebel} controls Commercial District {^Commercial}",
