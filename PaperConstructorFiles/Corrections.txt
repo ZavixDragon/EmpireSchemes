@@ -1,0 +1,11 @@
+..\GeneratorFiles
+..\PaperConstructorFiles\CorrectionsToPrintForGordy
+Corrections
+1 Goals\DoomBringerAsh.png
+1 Goals\RebellionLeaderZero.png
+5 Payouts\Payout24.png
+5 Payouts\Payout25.png
+5 Payouts\Payout26.png
+5 Payouts\Payout27.png
+5 Payouts\Payout28.png
+5 Payouts\Payout29.png

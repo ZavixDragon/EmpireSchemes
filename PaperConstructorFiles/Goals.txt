@@ -2,7 +2,7 @@
 ..\..\PaperConstructorFiles\Prints
 Goals
 1 CrimeLordRachni.png
-1 DisownedPRinceDrogo.png
+1 DisownedPrinceDrogo.png
 1 DoomBringerAsh.png
 1 DoubleAgentDukat.png
 1 FirstPrincessClaudia.png
@@ -12,3 +12,4 @@ Goals
 1 RoyalEmperorDrakon.png
 1 SpyMasterCrow.png
 1 ThePuppetMaster.png
+1 RebellionLeaderZero.png
