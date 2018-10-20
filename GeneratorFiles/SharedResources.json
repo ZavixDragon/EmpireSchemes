@@ -15,7 +15,9 @@
 
         "Font": "Lato",
         "TileWidth": "600",
-        "TileHeight": "600"
+        "TileHeight": "600",
+        "CardWidth": "750",
+        "CardHeight": "1050"
     },
     "Prototypes": 
     {
@@ -37,12 +39,37 @@
         "TileContent": 
         {
             "Type": "Text",
-            "X": 10,
-            "Y": 10,
+            "X": 15,
+            "Y": 15,
             "Font": "^Font",
             "FontStyle": "^Bold",
-            "Width": "#{^TileWidth} - 20",
-            "Height": "#{^TileHeight} - 20"
+            "Width": "#{^TileWidth} - 30",
+            "Height": "#{^TileHeight} - 30"
+        },
+        "CardBlueprint": 
+        {
+            "Width": "^CardWidth",
+            "Height": "^CardHeight"
+        },
+        "CardBorder": 
+        {
+            "Type": "Border",
+            "X": "0",
+            "Y": "0",
+            "Width": "^CardWidth",
+            "Height": "^CardHeight",
+            "Thickness": "10",
+            "Alignment": "Inner"
+        },
+        "CardContent":
+        {
+            "Type": "Text",
+            "X": 20,
+            "Y": 20,
+            "Font": "^Font",
+            "FontStyle": "^Bold",
+            "Width": "#{^TileWidth} - 40",
+            "Height": "#{^TileHeight} - 40"
         }
     }
 }
