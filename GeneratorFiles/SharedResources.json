@@ -41,7 +41,7 @@
             "Y": 10,
             "Font": "^Font",
             "FontStyle": "^Bold",
-            "Width": "#{^Tilewidth} - 20",
+            "Width": "#{^TileWidth} - 20",
             "Height": "#{^TileHeight} - 20"
         }
     }
