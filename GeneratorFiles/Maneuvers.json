@@ -1,6 +1,18 @@
 {
     "SavePath": "Maneuvers",
     "SaveName": "Card",
+    "Constants": 
+    {
+        "Cancel": "../LongLiveTheEmpire/Source Images/Maneuvers/CancelIcon200.png",
+        "Reverse": "../LongLiveTheEmpire/Source Images/Maneuvers/ReverseIcon200.png",
+        "Double": "../LongLiveTheEmpire/Source Images/Maneuvers/DoubleIcon200.png",
+        "Repeat": "../LongLiveTheEmpire/Source Images/Maneuvers/RepeatIcon200.png",
+        "Swap": "../LongLiveTheEmpire/Source Images/Maneuvers/SwapIcon200.png",
+        "SwapBasic": "../LongLiveTheEmpire/Source Images/Maneuvers/SwapBasicIcon200.png",
+        "Clone": "../LongLiveTheEmpire/Source Images/Maneuvers/CloneIcon200.png",
+        "Undo": "../LongLiveTheEmpire/Source Images/Maneuvers/UndoIcon200.png",
+        "Redo": "../LongLiveTheEmpire/Source Images/Maneuvers/RedoIcon200.png"
+    },
     "ImportedConstants": 
     [
         "SharedResources.json"
@@ -12,41 +24,41 @@
     "Items": 
     [
         { 
-            "SimplifiedContent": "",
+            "SimplifiedContent": "[^Cancel]",
             "Content": "Cancel the next card in queue" 
         },
         { 
-            "SimplifiedContent": "",
+            "SimplifiedContent": "[^Reverse]",
             "Content": "Reverse the effect of the next Basic" 
         },
         { 
-            "SimplifiedContent": "",
+            "SimplifiedContent": "[^Double]",
             "Content": "Double the effect of the next Basic" 
         },
         { 
-            "SimplifiedContent": "",
+            "SimplifiedContent": "[^Repeat]",
             "Content": "Repeat the previous card's effect including all modifiers" 
         },
         { 
-            "SimplifiedContent": "",
+            "SimplifiedContent": "[^Swap]",
             "Content": "Swap the next 2 cards in queue" 
         },
         { 
-            "SimplifiedContent": "",
+            "SimplifiedContent": "[^Clone]",
             "Content": "Clone the next card in queue" 
         },
         { 
-            "SimplifiedContent": "",
+            "SimplifiedContent": "[^Undo]",
             "Content": "Undo the previous change to the trackers" 
         },
         { 
-            "SimplifiedContent": "",
+            "SimplifiedContent": "[^SwapBasic]",
             "Content": "Swap the next 2 Basic cards in queue" 
         },
         { 
-            "SimplifiedContent": "",
+            "SimplifiedContent": "[^Redo]",
             "Content": "Redo the previous change to the trackers" 
-        },
+        }
     ],
     "Blueprint": 
     {
@@ -56,8 +68,14 @@
             { "Prototype": "TileBorder" },
             {
                 "Prototype": "TileContent",
+                "Content": "~SimplifiedContent",
+                "FontSize": "100",
+                "VerticalTextAlign": "Top"
+            },
+            {
+                "Prototype": "TileContent",
                 "Content": "~Content",
-                "FontSize": "100"
+                "FontSize": "50"
             },
             {
                 "Prototype": "TileContent",
