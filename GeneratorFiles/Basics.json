@@ -1,0 +1,44 @@
+{
+    "SavePath": "Basics",
+    "SaveName": "Card",
+    "ImportedConstants": 
+    [
+        "SharedResources.json"
+    ],
+    "ImportedPrototypes":
+    [
+        "SharedResources.json"
+    ],
+    "Items": 
+    [
+        { "Content": "+ [^Military]" },
+        { "Content": "- [^Military]" },
+        { "Content": "+ [^Fear]" },
+        { "Content": "- [^Fear]" },
+        { "Content": "+ [^Wealth]" },
+        { "Content": "- [^Wealth]" },
+        { "Content": "+ [^Information]" },
+        { "Content": "- [^Information]" },
+        { "Content": "+ [^Research]" },
+        { "Content": "- [^Research]" }
+    ],
+    "Blueprint": 
+    {
+        "Prototype": "TileBlueprint",
+        "Elements": 
+        [
+            { "Prototype": "TileBorder" },
+            {
+                "Prototype": "TileContent",
+                "Content": "~Content",
+                "FontSize": "100"
+            },
+            {
+                "Prototype": "TileContent",
+                "Content": "Basic",
+                "FontSize": "40",
+                "VerticalTextAlign": "Bottom"
+            }
+        ]
+    }
+}

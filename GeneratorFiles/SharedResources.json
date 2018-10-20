@@ -1,0 +1,48 @@
+{
+    "Constants": 
+    {
+        "Fear": "../LongLiveTheEmpire/Fear.png",
+        "Information": "../LongLiveTheEmpire/Information.png",
+        "Military": "../LongLiveTheEmpire/Military.png",
+        "Research": "../LongLiveTheEmpire/Research.png",
+        "Wealth": "../LongLiveTheEmpire/Wealth.png",
+        
+        "Regular": "0",
+        "Bold": "1",
+        "Italic": "2",
+        "Underline": "4",
+        "Strikeout": "8",
+
+        "Font": "Lato",
+        "TileWidth": "600",
+        "TileHeight": "600"
+    },
+    "Prototypes": 
+    {
+        "TileBlueprint": 
+        {
+            "Width": "^TileWidth",
+            "Height": "^TileHeight"
+        },
+        "TileBorder": 
+        {
+            "Type": "Border",
+            "X": 0,
+            "Y": 0,
+            "Width": "^TileWidth",
+            "Height": "^TileHeight",
+            "Thickness": "10",
+            "Alignment": "Inner"
+        },
+        "TileContent": 
+        {
+            "Type": "Text",
+            "X": 10,
+            "Y": 10,
+            "Font": "^Font",
+            "FontStyle": "^Bold",
+            "Width": "#{^Tilewidth} - 20",
+            "Height": "#{^TileHeight} - 20"
+        }
+    }
+}

@@ -1,0 +1,46 @@
+[
+    {
+        "FileName": "Maneuver1.png",
+        "Text": "Cancel the next card in queue"
+    },
+    {
+        "FileName": "Maneuver2.png",
+        "Text": "Reverse the effect of the next Basic Maneuver (Reversing an item gaining Basic switches which side it goes to)"
+    },
+    {
+        "FileName": "Maneuver3.png",
+        "Text": "Double the effect of the next Basic Maneuver"
+    },
+    {
+        "FileName": "Maneuver4.png",
+        "Text": "Repeat the previous card's effect including all modifiers"
+    },
+    {
+        "FileName": "Maneuver5.png",
+        "Text": "Swap the next 2 cards in queue"
+    },
+    {
+        "FileName": "Maneuver6.png",
+        "Text": "All Strength {^Strength} gains are increased by 1 for the rest of the turn"
+    },
+    {
+        "FileName": "Maneuver7.png",
+        "Text": "All Wealth {^Wealth} gains are increased by 1 for the rest of the turn"
+    },
+    {
+        "FileName": "Maneuver8.png",
+        "Text": "All Control {^Control} gains are increased by 1 for the rest of the turn"
+    },
+    {
+        "FileName": "Maneuver9.png",
+        "Text": "All Strength {^Strength} losses are increased by 1 for the rest of the turn"
+    },
+    {
+        "FileName": "Maneuver10.png",
+        "Text": "All Wealth {^Wealth} losses are increased by 1 for the rest of the turn"
+    },
+    {
+        "FileName": "Maneuver11.png",
+        "Text": "All Control {^Control} losses are increased by 1 for the rest of the turn"
+    }
+]
