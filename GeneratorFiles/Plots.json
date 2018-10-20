@@ -5,28 +5,57 @@
     [
         "SharedResources.json"
     ],
+    "Prototypes": 
+    {
+        "PlotTextSection": 
+        {
+            "Prototype": "CardContent",
+            "FontSize": "50",
+            "Height": "60" 
+        }
+    },
     "ImportedPrototypes":
     [
         "SharedResources.json"
     ],
     "ImportedItems": 
     [
-        "PlotItems"
+        "PlotItems.json"
     ],
     "Blueprint": 
     {
         "Prototype": "TileBlueprint",
         "Elements": 
         [
-            { "Prototype": "TileBorder" },
+            { "Prototype": "CardBorder" },
             {
-                "Prototype": "TileContent",
-                "Content": "~Content",
-                "FontSize": "100"
+                "Prototype": "PlotTextSection",
+                "Content": "~Req1",
+                "Y": "0"
             },
             {
-                "Prototype": "TileContent",
-                "Content": "Basic",
+                "Prototype": "PlotTextSection",
+                "Content": "~Req2",
+                "Y": "0"
+            },
+            {
+                "Prototype": "PlotTextSection",
+                "Content": "~Req3",
+                "Y": "0"
+            },
+            {
+                "Prototype": "PlotTextSection",
+                "Content": "5 []",
+                "Y": "0"
+            },
+            {
+                "Prototype": "PlotTextSection",
+                "Content": "~Req1",
+                "Y": "0"
+            },
+            {
+                "Prototype": "CardContent",
+                "Content": "Plot",
                 "FontSize": "40",
                 "VerticalTextAlign": "Bottom"
             }

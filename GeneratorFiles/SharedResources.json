@@ -6,6 +6,7 @@
         "Military": "../LongLiveTheEmpire/Military.png",
         "Research": "../LongLiveTheEmpire/Research.png",
         "Wealth": "../LongLiveTheEmpire/Wealth.png",
+        "Influence": "../LongLiveTheEmpire/Source Images/InfluenceIcon.png",
 
         "Regular": "0",
         "Bold": "1",
@@ -39,12 +40,12 @@
         "TileContent": 
         {
             "Type": "Text",
-            "X": 15,
-            "Y": 15,
+            "X": 20,
+            "Y": 20,
             "Font": "^Font",
             "FontStyle": "^Bold",
-            "Width": "#{^TileWidth} - 30",
-            "Height": "#{^TileHeight} - 30"
+            "Width": "#{^TileWidth} - 40",
+            "Height": "#{^TileHeight} - 40"
         },
         "CardBlueprint": 
         {
@@ -64,12 +65,12 @@
         "CardContent":
         {
             "Type": "Text",
-            "X": 20,
-            "Y": 20,
+            "X": 25,
+            "Y": 25,
             "Font": "^Font",
             "FontStyle": "^Bold",
-            "Width": "#{^TileWidth} - 40",
-            "Height": "#{^TileHeight} - 40"
+            "Width": "#{^TileWidth} - 50",
+            "Height": "#{^TileHeight} - 50"
         }
     }
 }
