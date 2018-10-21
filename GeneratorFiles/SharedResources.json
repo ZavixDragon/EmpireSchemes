@@ -69,8 +69,8 @@
             "Y": 25,
             "Font": "^Font",
             "FontStyle": "^Bold",
-            "Width": "#{^TileWidth} - 50",
-            "Height": "#{^TileHeight} - 50"
+            "Width": "#{^CardWidth} - 50",
+            "Height": "#{^CardHeight} - 50"
         }
     }
 }

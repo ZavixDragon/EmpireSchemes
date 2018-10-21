@@ -34,55 +34,55 @@
     ],
     "Blueprint": 
     {
-        "Prototype": "TileBlueprint",
+        "Prototype": "CardBlueprint",
         "Elements": 
         [
             { "Prototype": "CardBorder" },
             {
                 "Prototype": "PlotHalfSection",
                 "Content": "{~Req1}",
-                "Y": "0",
+                "Y": "100",
                 "X": "^RightX"
             },
             {
                 "Prototype": "PlotHalfSection",
                 "Content": "Bonus [^Influence] : {~Bonus1}",
-                "Y": "0",
+                "Y": "100",
                 "X": "^LeftX"
             },
             {
                 "Prototype": "PlotHalfSection",
                 "Content": "{~Req2}",
-                "Y": "0",
+                "Y": "200",
                 "X": "^RightX"
             },
             {
                 "Prototype": "PlotHalfSection",
                 "Content": "Bonus [^Influence] : {~Bonus2}",
-                "Y": "0",
+                "Y": "200",
                 "X": "^LeftX"
             },
             {
                 "Prototype": "PlotHalfSection",
                 "Content": "{~Req3}",
-                "Y": "0",
+                "Y": "300",
                 "X": "^RightX"
             },
             {
                 "Prototype": "PlotHalfSection",
                 "Content": "Bonus [^Influence] : {~Bonus3}",
-                "Y": "0",
+                "Y": "300",
                 "X": "^LeftX"
             },
             {
                 "Prototype": "PlotTextSection",
                 "Content": "5 [^Influence]",
-                "Y": "0"
+                "Y": "500"
             },
             {
                 "Prototype": "PlotTextSection",
                 "Content": "Set control for the {~District} or gain 2 Influence [^Influence]",
-                "Y": "0"
+                "Y": "600"
             },
             {
                 "Prototype": "CardContent",
