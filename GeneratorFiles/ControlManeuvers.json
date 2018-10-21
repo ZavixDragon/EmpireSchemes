@@ -1,0 +1,59 @@
+{
+    "SavePath": "ControlManeuvers",
+    "SaveName": "Card",
+    "ImportedConstants": 
+    [
+        "SharedResources.json"
+    ],
+    "ImportedPrototypes":
+    [
+        "SharedResources.json"
+    ],
+    "Items": 
+    [
+        { "Content": "Default: Give first player token to any player" },
+        { "Content": "Choose to Reverse or Double the next Basic" },
+        { "Content": "Gain 1 Manipulation Token" },
+        { "Content": "Choose for this to count as any Basic card" },
+        { "Content": "Rearrange the next 3 cards in queue" },
+        { "Content": "Swap the next Basic card with any Basic card" },
+        { "Content": "Choose to Undo or Redo the previous change on the stats" },
+        { "Content": "Choose to either cancel or clone the next card" },
+        { "Content": "Choose 1 of your uncompleted Plots to have inverse requirements" },
+        { "Content": "Gain 1 Influence" },
+        { "Content": "Next round, draw a Plot card without consuming a Plot slot" },
+        { "Content": "Choose one player to lose one Basic card next round and you gain an additional Basic card" },
+        { "Content": "Choose one player to lose one special card next round and you gain an additional Basic card" },
+
+        { "Content": "Choose for Military [^Military] to gain or lose 2" },
+        { "Content": "Choose for Fear [^Fear] to gain or lose 2" },
+        { "Content": "Choose for Wealth [^Wealth] to gain or lose 2" },
+        { "Content": "Choose for Information [^Information] to gain or lose 2" },
+        { "Content": "Choose for Research [^Research] to gain or lose 2" },
+
+        { "Content": "Choose for Military [^Military] gain or losses to be increased by 1 for the turn" },
+        { "Content": "Choose for Fear [^Fear] gain or losses to be increased by 1 for the turn" },
+        { "Content": "Choose for Wealth [^Wealth] gain or losses to be increased by 1 for the turn" },
+        { "Content": "Choose for Information [^Information] gain or losses to be increased by 1 for the turn" },
+        { "Content": "Choose for Research [^Research] gain or losses to be increased by 1 for the turn" }
+    ],
+    "Blueprint": 
+    {
+        "Prototype": "TileBlueprint",
+        "Elements": 
+        [
+            { "Prototype": "TileBorder" },
+            {
+                "Prototype": "TileContent",
+                "Content": "~Content",
+                "FontSize": "40"
+            },
+            {
+                "Prototype": "TileContent",
+                "Content": "Control Super",
+                "FontSize": "30",
+                "VerticalTextAlign": "Bottom"
+            }
+        ]
+    }
+}
