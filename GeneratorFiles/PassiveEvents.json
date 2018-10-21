@@ -1,0 +1,61 @@
+{
+    "SavePath": "PassiveEvents",
+    "SaveName": "Card",
+    "ImportedConstants": 
+    [
+        "SharedResources.json"
+    ],
+    "ImportedPrototypes":
+    [
+        "SharedResources.json"
+    ],
+    "Items": 
+    [
+        { "Content": "Starting Passive: No Effect" },
+        { "Content": "After executing the queue, execute it backwards" },
+        { "Content": "Execute every 2nd card twice" },
+        { "Content": "Execute every 3rd card twice" },
+        { "Content": "Execute every 4th card twice" },
+        { "Content": "All basics are doubled" },
+        { "Content": "Players get one less Basic this round" },
+        { "Content": "Players get one less Maneuver this round" },
+        { "Content": "Players get one less special and one more basic card in their hand this round" },
+        { "Content": "Players get one less basic and one more special card in their hand this round" },
+        { "Content": "Players get one more Basic this round" },
+        { "Content": "Players get one more Maneuver this round" },
+        { "Content": "Players are only allowed to have 1 plot this round" },
+        { "Content": "It cost 2 manipulation tokens to do manipulations this round" },
+        { "Content": "All plots scored this round given an additional 2 influence" },
+        { "Content": "All plots scored this round given 2 less influence" },
+        { "Content": "All players may ignore one requirement on their plots this round but no influence is gained from plots, except by forfeiting setting a district" },
+        { "Content": "All players may do one free manipulation this round" },
+        { "Content": "Plots remain hidden this round" },
+        { "Content": "Basics are placed face down this round" },
+        { "Content": "Players play with their chosen basics revealed this round" },
+        { "Content": "Players choose the ratio of special to basics in their hand this round" },
+        { "Content": "Placement is done in a snake pattern this round" },
+        { "Content": "No supers this round" },
+        { "Content": "No stat caps this round" },
+        { "Content": "Gain 2 manipulation for plot slot open this round instead of 1" },
+        { "Content": "This round draw your maneuvers rather than choosing" }
+    ],
+    "Blueprint": 
+    {
+        "Prototype": "CardBlueprint",
+        "Elements": 
+        [
+            { "Prototype": "CardBorder" },
+            {
+                "Prototype": "CardContent",
+                "Content": "~Content",
+                "FontSize": "50"
+            },
+            {
+                "Prototype": "CardContent",
+                "Content": "Event",
+                "FontSize": "40",
+                "VerticalTextAlign": "Bottom"
+            }
+        ]
+    }
+}
