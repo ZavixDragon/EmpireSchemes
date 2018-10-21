@@ -1,0 +1,78 @@
+{
+    "SavePath": "PowerManeuvers",
+    "SaveName": "Card",
+    "ImportedConstants": 
+    [
+        "SharedResources.json"
+    ],
+    "ImportedPrototypes":
+    [
+        "SharedResources.json"
+    ],
+    "Items": 
+    [
+        { "Content": "Default: Take first player token" },
+
+        { "Content": "+2 [^Military]" },
+        { "Content": "-2 [^Military]" },
+        { "Content": "+2 [^Fear]" },
+        { "Content": "-2 [^Fear]" },
+        { "Content": "+2 [^Wealth]" },
+        { "Content": "-2 [^Wealth]" },
+        { "Content": "+2 [^Information]" },
+        { "Content": "-2 [^Information]" },
+        { "Content": "+2 [^Research]" },
+        { "Content": "-2 [^Research]" },
+
+        { "Content": "Reverse and Double the effect of the next Basic" },
+        { "Content": "Triple the effect of the next Basic" },
+        { "Content": "Cancel the next 2 cards in queue" },
+
+        { "Content": "All Military [^Military] Gains are increased by 1 for the turn" },
+        { "Content": "All Military [^Military] Losses are increased by 1 for the turn" },
+        { "Content": "All Fear [^Fear] Gains are increased by 1 for the turn" },
+        { "Content": "All Fear [^Fear] Losses are increased by 1 for the turn" },
+        { "Content": "All Wealth [^Wealth] Gains are increased by 1 for the turn" },
+        { "Content": "All Wealth [^Wealth] Losses are increased by 1 for the turn" },
+        { "Content": "All Information [^Information] Gains are increased by 1 for the turn" },
+        { "Content": "All Information [^Information] Losses are increased by 1 for the turn" },
+        { "Content": "All Research [^Research] Gains are increased by 1 for the turn" },
+        { "Content": "All Research [^Research] Losses are increased by 1 for the turn" },
+
+        { "Content": "Repeat the previous card’s effect twice including all modifiers" },
+        { "Content": "Reverse the order of the next 4 cards" },
+
+        { "Content": "Reset Military [^Military]" },
+        { "Content": "Reset Fear [^Fear]" },
+        { "Content": "Reset Wealth [^Wealth]" },
+        { "Content": "Reset \n Information [^Information]" },
+        { "Content": "Reset Research [^Research]" },
+
+        { "Content": "Double the current Military [^Military]" },
+        { "Content": "Double the current Fear [^Fear]" },
+        { "Content": "Double the current Wealth [^Wealth]" },
+        { "Content": "Double the current Information [^Information]" },
+        { "Content": "Double the current Research [^Research]" },
+
+        { "Content": "When executing the next card, execute it 3 times" }
+    ],
+    "Blueprint": 
+    {
+        "Prototype": "TileBlueprint",
+        "Elements": 
+        [
+            { "Prototype": "TileBorder" },
+            {
+                "Prototype": "TileContent",
+                "Content": "~Content",
+                "FontSize": "50"
+            },
+            {
+                "Prototype": "TileContent",
+                "Content": "Power Super",
+                "FontSize": "40",
+                "VerticalTextAlign": "Bottom"
+            }
+        ]
+    }
+}
