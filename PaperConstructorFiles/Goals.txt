@@ -1,15 +1,23 @@
-..\GeneratorFiles\Goals
-..\..\PaperConstructorFiles\Prints
+..\GeneratorFiles
+..\PaperConstructorFiles\Prints
 Goals
-1 CrimeLordRachni.png
-1 DisownedPrinceDrogo.png
-1 DoomBringerAsh.png
-1 DoubleAgentDukat.png
-1 FirstPrincessClaudia.png
-1 GrandMarshallGaven.png
-1 InformationBrokerShade.png
-1 MadScientistTorx.png
-1 RoyalEmperorDrakon.png
-1 SpyMasterCrow.png
-1 ThePuppetMaster.png
-1 RebellionLeaderZero.png
+1 Goals\Card0.png
+1 Goals\Card1.png
+1 Goals\Card2.png
+1 Goals\Card3.png
+1 Goals\Card4.png
+1 Goals\Card5.png
+1 Goals\Card6.png
+1 Goals\Card7.png
+1 Goals\Card8.png
+1 Goals\Card9.png
+1 Goals\Card10.png
+1 Goals\Card11.png
+1 Goals\Card12.png
+1 Goals\Card13.png
+1 Goals\Card14.png
+1 Goals\Card15.png
+1 Goals\Card16.png
+1 Goals\Card17.png
+1 Goals\Card18.png
+1 Goals\Card19.png
