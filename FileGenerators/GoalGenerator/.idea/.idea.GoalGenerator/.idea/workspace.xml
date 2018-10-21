@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd52bb4b-8b23-49b8-bdab-3d277776c027" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../GeneratorFiles/PlotItems.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../GeneratorFiles/PlotItems.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GeneratorFiles/Plots.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../GeneratorFiles/Plots.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GeneratorFiles/SharedResources.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../GeneratorFiles/SharedResources.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoalGenerator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoalGenerator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoalGenerator/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoalGenerator/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoalGenerator/obj/Debug/GoalGenerator.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GoalGenerator/obj/Debug/GoalGenerator.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,12 +32,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="1" />
+          <entry key="cs" value="798" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="1" />
+          <entry key="C#" value="798" />
         </counts>
       </usages-collector>
     </session>
@@ -47,12 +47,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GoalGenerator/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="402">
+              <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
               <folding>
-                <marker date="1540092235233" expanded="true" signature="23:146" ph="{...}" />
-                <marker date="1540092235233" expanded="true" signature="52:144" ph="{...}" />
-                <marker date="1540092235233" expanded="true" signature="105:138" ph="{...}" />
+                <marker date="1540103999513" expanded="true" signature="6:136" ph="..." />
+                <marker date="1540103999513" expanded="true" signature="161:3839" ph="{...}" />
+                <marker date="1540103999513" expanded="true" signature="271:586" ph="{...}" />
+                <marker date="1540103999513" expanded="true" signature="643:2948" ph="{...}" />
+                <marker date="1540103999513" expanded="true" signature="866:2728" ph="{...}" />
+                <marker date="1540103999513" expanded="true" signature="2977:3837" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -158,12 +161,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540092216832</updated>
-      <workItem from="1540092219031" duration="887000" />
+      <workItem from="1540092219031" duration="2260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="887000" />
+    <option name="totallyTimeSpent" value="2260000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -179,7 +182,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -188,6 +191,7 @@
       <window_info anchor="bottom" id="Unit Tests" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -224,12 +228,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/GoalGenerator/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="402">
+          <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
           <folding>
-            <marker date="1540092235233" expanded="true" signature="23:146" ph="{...}" />
-            <marker date="1540092235233" expanded="true" signature="52:144" ph="{...}" />
-            <marker date="1540092235233" expanded="true" signature="105:138" ph="{...}" />
+            <marker date="1540103999513" expanded="true" signature="6:136" ph="..." />
+            <marker date="1540103999513" expanded="true" signature="161:3839" ph="{...}" />
+            <marker date="1540103999513" expanded="true" signature="271:586" ph="{...}" />
+            <marker date="1540103999513" expanded="true" signature="643:2948" ph="{...}" />
+            <marker date="1540103999513" expanded="true" signature="866:2728" ph="{...}" />
+            <marker date="1540103999513" expanded="true" signature="2977:3837" ph="{...}" />
           </folding>
         </state>
       </provider>

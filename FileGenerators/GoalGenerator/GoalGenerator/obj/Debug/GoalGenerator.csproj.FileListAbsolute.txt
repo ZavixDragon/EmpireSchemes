@@ -1,0 +1,6 @@
+C:\git\EmpireSchemes\FileGenerators\GoalGenerator\GoalGenerator\bin\Debug\GoalGenerator.exe
+C:\git\EmpireSchemes\FileGenerators\GoalGenerator\GoalGenerator\bin\Debug\GoalGenerator.pdb
+C:\git\EmpireSchemes\FileGenerators\GoalGenerator\GoalGenerator\obj\Debug\GoalGenerator.csprojAssemblyReference.cache
+C:\git\EmpireSchemes\FileGenerators\GoalGenerator\GoalGenerator\obj\Debug\GoalGenerator.csproj.CoreCompileInputs.cache
+C:\git\EmpireSchemes\FileGenerators\GoalGenerator\GoalGenerator\obj\Debug\GoalGenerator.exe
+C:\git\EmpireSchemes\FileGenerators\GoalGenerator\GoalGenerator\obj\Debug\GoalGenerator.pdb
