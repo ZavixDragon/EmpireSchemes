@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Noah\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Noah\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_PlotGenerator.851960409.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Noah\RiderProjects\PlotGenerator" t="IncludeFlat">
+    <e p="C:\git\EmpireSchemes\FileGenerators\PlotGenerator" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="PlotGenerator" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
@@ -16,5 +14,7 @@
       </e>
       <e p="PlotGenerator.sln" t="IncludeFlat" />
     </e>
+    <e p="C:\Users\Noah\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Noah\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_PlotGenerator.2007204941.00" t="ExcludeRecursive" />
   </component>
 </project>

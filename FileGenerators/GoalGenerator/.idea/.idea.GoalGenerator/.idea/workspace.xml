@@ -4,7 +4,17 @@
     <list default="true" id="dd52bb4b-8b23-49b8-bdab-3d277776c027" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoalGenerator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoalGenerator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoalGenerator/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoalGenerator/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoalGenerator/bin/Debug/GoalGenerator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/GoalGenerator/bin/Debug/GoalGenerator.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoalGenerator/bin/Debug/GoalGenerator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GoalGenerator/bin/Debug/GoalGenerator.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoalGenerator/obj/Debug/GoalGenerator.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GoalGenerator/obj/Debug/GoalGenerator.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoalGenerator/obj/Debug/GoalGenerator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/GoalGenerator/obj/Debug/GoalGenerator.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoalGenerator/obj/Debug/GoalGenerator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GoalGenerator/obj/Debug/GoalGenerator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlotGenerator/.idea/.idea.PlotGenerator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PlotGenerator/.idea/.idea.PlotGenerator/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlotGenerator/.idea/.idea.PlotGenerator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PlotGenerator/.idea/.idea.PlotGenerator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlotGenerator/PlotGenerator/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../PlotGenerator/PlotGenerator/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlotGenerator/PlotGenerator/obj/Debug/PlotGenerator.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../PlotGenerator/PlotGenerator/obj/Debug/PlotGenerator.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeneratorFiles/GoalItems.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../GeneratorFiles/GoalItems.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeneratorFiles/Goals.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../GeneratorFiles/Goals.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +26,10 @@
     <session id="1855318746">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -32,36 +44,46 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="798" />
+          <entry key="cs" value="1423" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="798" />
+          <entry key="C#" value="1423" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GoalGenerator/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+            <state relative-caret-position="506">
+              <caret line="54" column="31" lean-forward="true" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
               <folding>
-                <marker date="1540103999513" expanded="true" signature="6:136" ph="..." />
-                <marker date="1540103999513" expanded="true" signature="161:3839" ph="{...}" />
-                <marker date="1540103999513" expanded="true" signature="271:586" ph="{...}" />
-                <marker date="1540103999513" expanded="true" signature="643:2948" ph="{...}" />
-                <marker date="1540103999513" expanded="true" signature="866:2728" ph="{...}" />
-                <marker date="1540103999513" expanded="true" signature="2977:3837" ph="{...}" />
+                <marker date="1540106965539" expanded="false" signature="6:136" ph="..." />
+                <marker date="1540106965539" expanded="true" signature="161:3988" ph="{...}" />
+                <marker date="1540106965539" expanded="true" signature="190:3043" ph="{...}" />
+                <marker date="1540106965539" expanded="true" signature="271:586" ph="{...}" />
+                <marker date="1540106965539" expanded="true" signature="734:2500" ph="{...}" />
+                <marker date="1540106965539" expanded="true" signature="1019:2289" ph="{...}" />
+                <marker date="1540106965539" expanded="true" signature="2630:3037" ph="{...}" />
+                <marker date="1540106965539" expanded="true" signature="3066:3986" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>x != district</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>!x.Contains(district)</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -101,11 +123,6 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="GoalGenerator" type="24d0babc:SolutionExplorerModelNode" />
             </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="GoalGenerator" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="GoalGenerator" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -118,6 +135,7 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PlotGenerator" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -133,19 +151,19 @@
   </component>
   <component name="RunManager">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/GoalGenerator/bin/Debug/GoalGenerator.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GoalGenerator/bin/Debug" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/GoalGenerator/GoalGenerator.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="None" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.2" />
       <method v="2">
         <option name="Build" enabled="true" />
       </method>
@@ -161,12 +179,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540092216832</updated>
-      <workItem from="1540092219031" duration="2260000" />
+      <workItem from="1540092219031" duration="2636000" />
+      <workItem from="1540105367035" duration="3076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2260000" />
+    <option name="totallyTimeSpent" value="5712000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -179,38 +198,37 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14832215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.32907802" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Build" order="14" visible="true" weight="0.18297872" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -228,15 +246,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/GoalGenerator/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+        <state relative-caret-position="506">
+          <caret line="54" column="31" lean-forward="true" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
           <folding>
-            <marker date="1540103999513" expanded="true" signature="6:136" ph="..." />
-            <marker date="1540103999513" expanded="true" signature="161:3839" ph="{...}" />
-            <marker date="1540103999513" expanded="true" signature="271:586" ph="{...}" />
-            <marker date="1540103999513" expanded="true" signature="643:2948" ph="{...}" />
-            <marker date="1540103999513" expanded="true" signature="866:2728" ph="{...}" />
-            <marker date="1540103999513" expanded="true" signature="2977:3837" ph="{...}" />
+            <marker date="1540106965539" expanded="false" signature="6:136" ph="..." />
+            <marker date="1540106965539" expanded="true" signature="161:3988" ph="{...}" />
+            <marker date="1540106965539" expanded="true" signature="190:3043" ph="{...}" />
+            <marker date="1540106965539" expanded="true" signature="271:586" ph="{...}" />
+            <marker date="1540106965539" expanded="true" signature="734:2500" ph="{...}" />
+            <marker date="1540106965539" expanded="true" signature="1019:2289" ph="{...}" />
+            <marker date="1540106965539" expanded="true" signature="2630:3037" ph="{...}" />
+            <marker date="1540106965539" expanded="true" signature="3066:3986" ph="{...}" />
           </folding>
         </state>
       </provider>

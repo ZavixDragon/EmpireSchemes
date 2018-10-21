@@ -11,11 +11,11 @@
         "LineHeight": "5",
         "BorderHeight": "450",
         "Column1": "25",
-        "Column2": "525",
-        "Column3": "1025",
+        "Column2": "725",
+        "Column3": "1425",
         "Row1": "25",
-        "Row2": "725",
-        "Row3": "1425",
+        "Row2": "525",
+        "Row3": "1025",
 
         "LineYOffset": "({^ContentOffset} * 2) + {^InfluenceHeight}",
         "DistrictYOffset": "{^LineYOffset} + {^LineHeight} + {^ContentOffset}"
@@ -55,8 +55,8 @@
             "Font": "^Font",
             "FontSize": "50",
             "FontStyle": "^Bold",
-            "Width": "#{^ObjectiveWidth} - ({^ContentXOffset} * 2)",
-            "Height": "#{^BorderHeight} - ({^ContentMargin} * 4) - {^InfluenceHeight} - {^LineHeight}"
+            "Width": "#{^ObjectiveWidth} - ({^ContentOffset} * 2)",
+            "Height": "#{^BorderHeight} - ({^ContentOffset} * 4) - {^InfluenceHeight} - {^LineHeight}"
         }
     },
     "ImportedPrototypes":
@@ -91,7 +91,7 @@
                 "Prototype": "InfluenceText",
                 "Content": "3 [^Influence]",
                 "X": "#{^Column1} + {^ContentOffset}",
-                "Y": "#{^Row1} + {^ContentOffset}"
+                "Y": "#{^Row1} + {^ContentOffset} + 10"
             },
             {
                 "Prototype": "ObjectiveLine",
@@ -102,7 +102,7 @@
                 "Prototype": "DistrictText",
                 "Content": "~Goal9",
                 "X": "#{^Column1} + {^ContentOffset}",
-                "Y": "#{^Row1} + {^DistrictYOffset}"
+                "Y": "#{^Row1} + {^DistrictYOffset} + 10"
             },
             {
                 "Prototype": "ObjectiveBorder",
@@ -113,7 +113,7 @@
                 "Prototype": "InfluenceText",
                 "Content": "4 [^Influence]",
                 "X": "#{^Column2} + {^ContentOffset}",
-                "Y": "#{^Row1} + {^ContentOffset}"
+                "Y": "#{^Row1} + {^ContentOffset} + 10"
             },
             {
                 "Prototype": "ObjectiveLine",
@@ -124,7 +124,7 @@
                 "Prototype": "DistrictText",
                 "Content": "~Goal8",
                 "X": "#{^Column2} + {^ContentOffset}",
-                "Y": "#{^Row1} + {^DistrictYOffset}"
+                "Y": "#{^Row1} + {^DistrictYOffset} + 10"
             },
             {
                 "Prototype": "ObjectiveBorder",
@@ -135,7 +135,7 @@
                 "Prototype": "InfluenceText",
                 "Content": "5 [^Influence]",
                 "X": "#{^Column3} + {^ContentOffset}",
-                "Y": "#{^Row1} + {^ContentOffset}"
+                "Y": "#{^Row1} + {^ContentOffset} + 10"
             },
             {
                 "Prototype": "ObjectiveLine",
@@ -146,7 +146,7 @@
                 "Prototype": "DistrictText",
                 "Content": "~Goal7",
                 "X": "#{^Column3} + {^ContentOffset}",
-                "Y": "#{^Row1} + {^DistrictYOffset}"
+                "Y": "#{^Row1} + {^DistrictYOffset} + 10"
             },
             {
                 "Prototype": "ObjectiveBorder",
@@ -157,7 +157,7 @@
                 "Prototype": "InfluenceText",
                 "Content": "6 [^Influence]",
                 "X": "#{^Column1} + {^ContentOffset}",
-                "Y": "#{^Row2} + {^ContentOffset}"
+                "Y": "#{^Row2} + {^ContentOffset} + 10"
             },
             {
                 "Prototype": "ObjectiveLine",
@@ -168,7 +168,7 @@
                 "Prototype": "DistrictText",
                 "Content": "~Goal6",
                 "X": "#{^Column1} + {^ContentOffset}",
-                "Y": "#{^Row2} + {^DistrictYOffset}"
+                "Y": "#{^Row2} + {^DistrictYOffset} + 10"
             },
             {
                 "Prototype": "ObjectiveBorder",
@@ -179,7 +179,7 @@
                 "Prototype": "InfluenceText",
                 "Content": "7 [^Influence]",
                 "X": "#{^Column2} + {^ContentOffset}",
-                "Y": "#{^Row2} + {^ContentOffset}"
+                "Y": "#{^Row2} + {^ContentOffset} + 10"
             },
             {
                 "Prototype": "ObjectiveLine",
@@ -190,7 +190,7 @@
                 "Prototype": "DistrictText",
                 "Content": "~Goal5",
                 "X": "#{^Column2} + {^ContentOffset}",
-                "Y": "#{^Row2} + {^DistrictYOffset}"
+                "Y": "#{^Row2} + {^DistrictYOffset} + 10"
             },
             {
                 "Prototype": "ObjectiveBorder",
@@ -201,7 +201,7 @@
                 "Prototype": "InfluenceText",
                 "Content": "8 [^Influence]",
                 "X": "#{^Column3} + {^ContentOffset}",
-                "Y": "#{^Row2} + {^ContentOffset}"
+                "Y": "#{^Row2} + {^ContentOffset} + 10"
             },
             {
                 "Prototype": "ObjectiveLine",
@@ -212,7 +212,7 @@
                 "Prototype": "DistrictText",
                 "Content": "~Goal4",
                 "X": "#{^Column3} + {^ContentOffset}",
-                "Y": "#{^Row2} + {^DistrictYOffset}"
+                "Y": "#{^Row2} + {^DistrictYOffset} + 10"
             },
             {
                 "Prototype": "ObjectiveBorder",
@@ -223,7 +223,7 @@
                 "Prototype": "InfluenceText",
                 "Content": "9 [^Influence]",
                 "X": "#{^Column1} + {^ContentOffset}",
-                "Y": "#{^Row3} + {^ContentOffset}"
+                "Y": "#{^Row3} + {^ContentOffset} + 10"
             },
             {
                 "Prototype": "ObjectiveLine",
@@ -234,7 +234,7 @@
                 "Prototype": "DistrictText",
                 "Content": "~Goal3",
                 "X": "#{^Column1} + {^ContentOffset}",
-                "Y": "#{^Row3} + {^DistrictYOffset}"
+                "Y": "#{^Row3} + {^DistrictYOffset} + 10"
             },
             {
                 "Prototype": "ObjectiveBorder",
@@ -245,7 +245,7 @@
                 "Prototype": "InfluenceText",
                 "Content": "10 [^Influence]",
                 "X": "#{^Column2} + {^ContentOffset}",
-                "Y": "#{^Row3} + {^ContentOffset}"
+                "Y": "#{^Row3} + {^ContentOffset} + 10"
             },
             {
                 "Prototype": "ObjectiveLine",
@@ -256,7 +256,7 @@
                 "Prototype": "DistrictText",
                 "Content": "~Goal2",
                 "X": "#{^Column2} + {^ContentOffset}",
-                "Y": "#{^Row3} + {^DistrictYOffset}"
+                "Y": "#{^Row3} + {^DistrictYOffset} + 10"
             },
             {
                 "Prototype": "ObjectiveBorder",
@@ -267,7 +267,7 @@
                 "Prototype": "InfluenceText",
                 "Content": "11 [^Influence]",
                 "X": "#{^Column3} + {^ContentOffset}",
-                "Y": "#{^Row3} + {^ContentOffset}"
+                "Y": "#{^Row3} + {^ContentOffset} + 10"
             },
             {
                 "Prototype": "ObjectiveLine",
@@ -278,7 +278,7 @@
                 "Prototype": "DistrictText",
                 "Content": "~Goal1",
                 "X": "#{^Column3} + {^ContentOffset}",
-                "Y": "#{^Row3} + {^DistrictYOffset}"
+                "Y": "#{^Row3} + {^DistrictYOffset} + 10"
             },
         ]
     }

@@ -16,7 +16,7 @@ namespace PlotGenerator
             plots = WithThirdStat(WithSecondStat(stats, WithFirstStat(stats, plots, random), random));
             for (var i = 0; i < districts.Length; i++)
                 plots.Skip(i * 8).Take(8).ToList().ForEach(x => x.District = districts[i]);
-            File.WriteAllText(@"C:\git\EmpireSchemes\GeneratorFiles\PlotItems.json", $"{{ \"Items\": [{string.Join(",", plots.Select(x => x.ToJson()))}] }}");
+            File.WriteAllText(args[0], $"{{ \"Items\": [{string.Join(",", plots.Select(x => x.ToJson()))}] }}");
         }
         
         private static List<Plot> GetPlotCombinations(Stat[] stats, Random random)
