@@ -1,11 +1,6 @@
 {
     "SavePath": "Plots",
     "SaveName": "Card",
-    "Constants":
-    {
-        "RightX": "25",
-        "LeftX": "400"
-    },
     "ImportedConstants": 
     [
         "SharedResources.json"
@@ -17,11 +12,6 @@
             "Prototype": "CardContent",
             "FontSize": "50",
             "Height": "60" 
-        },
-        "PlotHalfSection":
-        {
-            "Prototype": "PlotTextSection",
-            "Width": "#({^TileWidth} - 50) / 2"
         }
     },
     "ImportedPrototypes":
@@ -39,40 +29,25 @@
         [
             { "Prototype": "CardBorder" },
             {
-                "Prototype": "PlotHalfSection",
+                "Prototype": "PlotTextSection",
                 "Content": "{~Req1}",
                 "Y": "100",
-                "X": "^RightX"
+                "X": "280",
+                "HorizontalTextAlign": "Left"
             },
             {
-                "Prototype": "PlotHalfSection",
-                "Content": "Bonus [^Influence] : {~Bonus1}",
-                "Y": "100",
-                "X": "^LeftX"
-            },
-            {
-                "Prototype": "PlotHalfSection",
+                "Prototype": "PlotTextSection",
                 "Content": "{~Req2}",
                 "Y": "200",
-                "X": "^RightX"
+                "X": "280",
+                "HorizontalTextAlign": "Left"
             },
             {
-                "Prototype": "PlotHalfSection",
-                "Content": "Bonus [^Influence] : {~Bonus2}",
-                "Y": "200",
-                "X": "^LeftX"
-            },
-            {
-                "Prototype": "PlotHalfSection",
+                "Prototype": "PlotTextSection",
                 "Content": "{~Req3}",
                 "Y": "300",
-                "X": "^RightX"
-            },
-            {
-                "Prototype": "PlotHalfSection",
-                "Content": "Bonus [^Influence] : {~Bonus3}",
-                "Y": "300",
-                "X": "^LeftX"
+                "X": "280",
+                "HorizontalTextAlign": "Left"
             },
             {
                 "Prototype": "PlotTextSection",
@@ -82,7 +57,7 @@
             {
                 "Prototype": "PlotTextSection",
                 "Content": "Set control for the {~District} or gain 2 Influence [^Influence]",
-                "Y": "600"
+                "Y": "700"
             },
             {
                 "Prototype": "CardContent",
