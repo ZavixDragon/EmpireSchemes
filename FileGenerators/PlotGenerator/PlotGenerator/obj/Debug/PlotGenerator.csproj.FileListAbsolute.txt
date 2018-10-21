@@ -1,0 +1,6 @@
+C:\Users\Noah\RiderProjects\PlotGenerator\PlotGenerator\bin\Debug\PlotGenerator.exe
+C:\Users\Noah\RiderProjects\PlotGenerator\PlotGenerator\bin\Debug\PlotGenerator.pdb
+C:\Users\Noah\RiderProjects\PlotGenerator\PlotGenerator\obj\Debug\PlotGenerator.csprojAssemblyReference.cache
+C:\Users\Noah\RiderProjects\PlotGenerator\PlotGenerator\obj\Debug\PlotGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Noah\RiderProjects\PlotGenerator\PlotGenerator\obj\Debug\PlotGenerator.exe
+C:\Users\Noah\RiderProjects\PlotGenerator\PlotGenerator\obj\Debug\PlotGenerator.pdb

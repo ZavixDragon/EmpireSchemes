@@ -1,6 +1,11 @@
 {
     "SavePath": "Plots",
     "SaveName": "Card",
+    "Constants":
+    {
+        "RightX": "25",
+        "LeftX": "400"
+    },
     "ImportedConstants": 
     [
         "SharedResources.json"
@@ -12,6 +17,11 @@
             "Prototype": "CardContent",
             "FontSize": "50",
             "Height": "60" 
+        },
+        "PlotHalfSection":
+        {
+            "Prototype": "PlotTextSection",
+            "Width": "#({^TileWidth} - 50) / 2"
         }
     },
     "ImportedPrototypes":
@@ -29,28 +39,49 @@
         [
             { "Prototype": "CardBorder" },
             {
+                "Prototype": "PlotHalfSection",
+                "Content": "{~Req1}",
+                "Y": "0",
+                "X": "^RightX"
+            },
+            {
+                "Prototype": "PlotHalfSection",
+                "Content": "Bonus [^Influence] : {~Bonus1}",
+                "Y": "0",
+                "X": "^LeftX"
+            },
+            {
+                "Prototype": "PlotHalfSection",
+                "Content": "{~Req2}",
+                "Y": "0",
+                "X": "^RightX"
+            },
+            {
+                "Prototype": "PlotHalfSection",
+                "Content": "Bonus [^Influence] : {~Bonus2}",
+                "Y": "0",
+                "X": "^LeftX"
+            },
+            {
+                "Prototype": "PlotHalfSection",
+                "Content": "{~Req3}",
+                "Y": "0",
+                "X": "^RightX"
+            },
+            {
+                "Prototype": "PlotHalfSection",
+                "Content": "Bonus [^Influence] : {~Bonus3}",
+                "Y": "0",
+                "X": "^LeftX"
+            },
+            {
                 "Prototype": "PlotTextSection",
-                "Content": "~Req1",
+                "Content": "5 [^Influence]",
                 "Y": "0"
             },
             {
                 "Prototype": "PlotTextSection",
-                "Content": "~Req2",
-                "Y": "0"
-            },
-            {
-                "Prototype": "PlotTextSection",
-                "Content": "~Req3",
-                "Y": "0"
-            },
-            {
-                "Prototype": "PlotTextSection",
-                "Content": "5 []",
-                "Y": "0"
-            },
-            {
-                "Prototype": "PlotTextSection",
-                "Content": "~Req1",
+                "Content": "Set control for the {~District} or gain 2 Influence [^Influence]",
                 "Y": "0"
             },
             {
