@@ -1,6 +1,7 @@
 ..\GeneratorFiles
 ..\PaperConstructorFiles\Prints
 Tiles
+10
 12 Basics\Card0.png
 12 Basics\Card1.png
 12 Basics\Card2.png

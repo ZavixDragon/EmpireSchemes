@@ -1,6 +1,7 @@
 ..\GeneratorFiles
 ..\PaperConstructorFiles\Prints
 Goals
+20
 1 Goals\Card0.png
 1 Goals\Card1.png
 1 Goals\Card2.png

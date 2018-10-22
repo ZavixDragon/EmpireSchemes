@@ -7,16 +7,29 @@ namespace PlotGenerator
 {
     internal class Program
     {
+        private static List<string> _districts = new List<string>
+        {
+            "Royal Gardens",
+            "Military Compound",
+            "Commercial District",
+            "Tech Community",
+            "Noble Block",
+            "Mall Plaza",
+            "News Square",
+            "Residential Area",
+            "Manufacturing Zone",
+            "Smuggling Center"
+        };
+        
         public static void Main(string[] args)
         {
             var random = new Random(Guid.NewGuid().GetHashCode());
             var stats = ((Stat[]) Enum.GetValues(typeof(Stat))).OrderBy(_ => random.Next()).ToArray();
-            var districts = ((District[]) Enum.GetValues(typeof(District))).OrderBy(_ => random.Next()).ToArray();
             var plots = GetPlotCombinations(stats, random);
             plots = WithThirdStat(WithSecondStat(stats, WithFirstStat(stats, plots, random), random));
-            for (var i = 0; i < districts.Length; i++)
-                plots.Skip(i * 8).Take(8).ToList().ForEach(x => x.District = districts[i]);
-            File.WriteAllText(args[0], $"{{ \"Items\": [{string.Join(",", plots.Select(x => x.ToJson()))}] }}");
+            for (var i = 0; i < _districts.Count; i++)
+                plots.Skip(i * 8).Take(8).ToList().ForEach(x => x.District = _districts[i]);
+            File.WriteAllText(@"C:\git\EmpireSchemes\GeneratorFiles\PlotItems.json", $"{{ \"Items\": [{string.Join(",", plots.Select(x => x.ToJson()))}] }}");
         }
         
         private static List<Plot> GetPlotCombinations(Stat[] stats, Random random)
@@ -127,7 +140,7 @@ namespace PlotGenerator
         public Requirement Req1 { get; set; }
         public Requirement Req2 { get; set; }
         public Requirement Req3 { get; set; }
-        public District District { get; set; }
+        public string District { get; set; }
         public List<Requirement> Reqs => new List<Requirement> { Req1, Req2, Req3 };
         public bool HasUnvaluedStat(Stat stat, bool isPositive) => Reqs.Any(req => req.Stat == stat && req.IsPositive == isPositive && req.Value == 0);
         public Requirement GetStat(Stat stat) => Reqs.First(x => x.Stat == stat);
@@ -137,7 +150,7 @@ namespace PlotGenerator
         public string ToJson()
         {
             var orderedReqs = Reqs.OrderByDescending(x => x.Value).ToArray();
-            return $"{{ \"Req1\": \"{orderedReqs[0].ToNormString()}\", \"Bonus1\": \"{orderedReqs[0].ToBonusString()}\", \"Req2\": \"{orderedReqs[1].ToNormString()}\", \"Bonus2\": \"{orderedReqs[1].ToBonusString()}\", \"Req3\": \"{orderedReqs[2].ToNormString()}\", \"Bonus3\": \"{orderedReqs[2].ToBonusString()}\", \"District\": \"{District}\" }}";
+            return $"{{ \"Req1\": \"{orderedReqs[0].ToNormString()}\", \"Req2\": \"{orderedReqs[1].ToNormString()}\", \"Req3\": \"{orderedReqs[2].ToNormString()}\", \"District\": \"{District}\" }}";
         }
     }
 
@@ -151,14 +164,9 @@ namespace PlotGenerator
         
         public string ToNormString()
         {
-            var positiveString = IsPositive ? "+" : "-";
-            return $"[^{Stat}] {Value}{positiveString}";
-        }
-
-        public string ToBonusString()
-        {
-            var positiveString = IsPositive ? "+" : "-";
-            return $"[^{Stat}] {Value + 2}{positiveString}";
+            var greaterOrLesser = IsPositive ? "≥" : "≤";
+            var sign = IsPositive ? "+" : "-";
+            return $"[^{Stat}] {greaterOrLesser} {sign}{Value}";
         }
     }
     
@@ -184,19 +192,5 @@ namespace PlotGenerator
         Military,
         Research,
         Wealth
-    }
-
-    public enum District
-    {
-        RoyalGardens,
-        MilitaryCompound,
-        CommercialDistrict,
-        TechCommunity,
-        NobleBlock,
-        MallPlaza,
-        NewsSquare,
-        ResidentialArea,
-        ManufacturingZone,
-        SmugglingCenter
     }
 }

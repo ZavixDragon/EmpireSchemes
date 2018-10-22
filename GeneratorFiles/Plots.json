@@ -1,6 +1,10 @@
 {
     "SavePath": "Plots",
     "SaveName": "Card",
+    "Constants": 
+    {
+        "ReqOffset": "265"
+    },
     "ImportedConstants": 
     [
         "SharedResources.json"
@@ -32,21 +36,21 @@
                 "Prototype": "PlotTextSection",
                 "Content": "{~Req1}",
                 "Y": "100",
-                "X": "280",
+                "X": "^ReqOffset",
                 "HorizontalTextAlign": "Left"
             },
             {
                 "Prototype": "PlotTextSection",
                 "Content": "{~Req2}",
                 "Y": "200",
-                "X": "280",
+                "X": "^ReqOffset",
                 "HorizontalTextAlign": "Left"
             },
             {
                 "Prototype": "PlotTextSection",
                 "Content": "{~Req3}",
                 "Y": "300",
-                "X": "280",
+                "X": "^ReqOffset",
                 "HorizontalTextAlign": "Left"
             },
             {

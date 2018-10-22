@@ -1,6 +1,7 @@
 ..\GeneratorFiles
 ..\PaperConstructorFiles\Prints
 Cards
+10
 1 PassiveEvents\Card0.png
 1 PassiveEvents\Card1.png
 1 PassiveEvents\Card2.png

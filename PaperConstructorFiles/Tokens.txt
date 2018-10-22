@@ -1,0 +1,14 @@
+..\LongLiveTheEmpire
+..\PaperConstructorFiles\Prints
+Tokens
+0
+6 FearMinus.png
+6 FearPlus.png
+6 InformationMinus.png
+6 InformationPlus.png
+6 MilitaryMinus.png
+6 MilitaryPlus.png
+6 ResearchMinus.png
+6 ResearchPlus.png
+6 WealthMinus.png
+6 WealthPlus.png
