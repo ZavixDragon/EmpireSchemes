@@ -25,7 +25,7 @@
     [
         { 
             "SimplifiedContent": "[^Cancel]",
-            "Content": "Cancel the next card in queue" 
+            "Content": "Remove the next card in queue" 
         },
         { 
             "SimplifiedContent": "[^Reverse]",
@@ -49,7 +49,7 @@
         },
         { 
             "SimplifiedContent": "[^Undo]",
-            "Content": "Undo the previous change to the trackers" 
+            "Content": "Counteract the previous change to the trackers" 
         },
         { 
             "SimplifiedContent": "[^SwapBasic]",
@@ -57,7 +57,7 @@
         },
         { 
             "SimplifiedContent": "[^Redo]",
-            "Content": "Redo the previous change to the trackers" 
+            "Content": "Repeat the previous change to the trackers" 
         }
     ],
     "Blueprint": 

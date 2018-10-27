@@ -1,0 +1,7 @@
+..\GeneratorFiles
+..\PaperConstructorFiles\ThanksGordy
+Tiles
+10
+2 Maneuvers\Card0.png
+2 Maneuvers\Card6.png
+2 Maneuvers\Card8.png

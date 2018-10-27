@@ -1,5 +1,5 @@
 ..\LongLiveTheEmpire
-..\PaperConstructorFiles\ThanksGordy
+..\PaperConstructorFiles\Prints
 Boards
 0
 6 PlayerBoard.png
