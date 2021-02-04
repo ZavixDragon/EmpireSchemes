@@ -37,7 +37,7 @@
                 "Prototype": "TileContent",
                 "Content": "District",
                 "FontSize": "30",
-                "VerticalTextAlign": "Bottom"
+                "VerticalAlignment": "Bottom"
             }
         ]
     }

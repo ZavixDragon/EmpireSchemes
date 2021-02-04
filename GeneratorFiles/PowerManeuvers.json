@@ -71,7 +71,7 @@
                 "Prototype": "TileContent",
                 "Content": "Power Super",
                 "FontSize": "40",
-                "VerticalTextAlign": "Bottom"
+                "VerticalAlignment": "Bottom"
             }
         ]
     }

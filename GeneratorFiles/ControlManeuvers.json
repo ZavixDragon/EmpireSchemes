@@ -52,7 +52,7 @@
                 "Prototype": "TileContent",
                 "Content": "Control Super",
                 "FontSize": "30",
-                "VerticalTextAlign": "Bottom"
+                "VerticalAlignment": "Bottom"
             }
         ]
     }

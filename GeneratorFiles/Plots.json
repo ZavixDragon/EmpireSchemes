@@ -37,21 +37,21 @@
                 "Content": "{~Req1}",
                 "Y": "100",
                 "X": "^ReqOffset",
-                "HorizontalTextAlign": "Left"
+                "HorizontalAlignment": "Left"
             },
             {
                 "Prototype": "PlotTextSection",
                 "Content": "{~Req2}",
                 "Y": "200",
                 "X": "^ReqOffset",
-                "HorizontalTextAlign": "Left"
+                "HorizontalAlignment": "Left"
             },
             {
                 "Prototype": "PlotTextSection",
                 "Content": "{~Req3}",
                 "Y": "300",
                 "X": "^ReqOffset",
-                "HorizontalTextAlign": "Left"
+                "HorizontalAlignment": "Left"
             },
             {
                 "Prototype": "PlotTextSection",
@@ -67,7 +67,7 @@
                 "Prototype": "CardContent",
                 "Content": "Plot",
                 "FontSize": "40",
-                "VerticalTextAlign": "Bottom"
+                "VerticalAlignment": "Bottom"
             }
         ]
     }
